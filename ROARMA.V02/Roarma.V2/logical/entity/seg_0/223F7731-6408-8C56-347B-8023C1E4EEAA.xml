@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="223F7731-6408-8C56-347B-8023C1E4EEAA" name="VALOR_HORA">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 12:43:05 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="run_pro" id="FB7921E1-A934-B906-A2A2-DD5F852B73E8">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:11:30 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_esp" id="8C4CD69D-637E-E435-3925-3CA1CF638A40">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:12:05 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tar_hor" id="119C937A-BE8B-30EB-5E52-51FA644BC195">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:12:39 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

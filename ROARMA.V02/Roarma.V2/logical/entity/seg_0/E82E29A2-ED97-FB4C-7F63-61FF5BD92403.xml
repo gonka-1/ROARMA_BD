@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E82E29A2-ED97-FB4C-7F63-61FF5BD92403" name="MENSAJE">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 12:43:46 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_msj" id="9B57229B-455C-EFF5-989A-60F013642388">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:39:11 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_conv" id="5AA74CCA-91AD-09DF-E254-CCE4D696096F">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:39:31 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run_usu" id="B2267BD3-7496-8F3A-B519-CF2AA3FC3598">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:39:44 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cont_msj" id="D876C72C-22FF-97A6-1635-D3B2A7BC86F3">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:40:08 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>280</dataTypeSize>
+<ownDataTypeParameters>280,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fec_hora_msj" id="FE1B1A4A-285B-5E9B-911C-E161F4ED9850">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:41:43 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run_per" id="36C1051F-876B-C7EC-D767-987CB1C883D4">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-08-29 02:35:11 UTC</createdTime>
+<generatorID>6C28DB35-837F-CF09-48D6-B5F2FF804EC1</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<referedAttribute>88E3F509-9233-6DEB-CD9C-7D2FABFC3DBD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="82E330B1-737D-C5B3-C1ED-590537031450" name="MENSAJE PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:39:29 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B57229B-455C-EFF5-989A-60F013642388</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

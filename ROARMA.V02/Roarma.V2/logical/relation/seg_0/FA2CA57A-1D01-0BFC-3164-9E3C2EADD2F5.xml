@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Iniciar" directorySegmentName="seg_0" id="FA2CA57A-1D01-0BFC-3164-9E3C2EADD2F5">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-08-24 23:00:49 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<sourcePk>D4CA1E97-FBB0-3E05-2F93-2311E9C90C58</sourcePk>
+<targetPk>82E330B1-737D-C5B3-C1ED-590537031450</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Es iniciada</nameOnSource>
+<nameOnTarget>Inician</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>74E08BBC-E4A8-1E68-C4BF-8DEAD240C8CB</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E82E29A2-ED97-FB4C-7F63-61FF5BD92403</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFB60861-649C-6FD9-48FC-5D2962735BC7" name="COMUNA">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:19:56 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_comuna" id="E8D1A3A1-F6C1-9182-3A8A-6806E7353E72">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:47:51 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_comuna" id="96DCF37A-E6F9-FD17-B412-00EE8E72E2D3">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:48:02 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dis" id="C4012CF8-F030-A6EC-B324-119BBAC5D216">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-08-25 04:05:04 UTC</createdTime>
+<generatorID>08BE4F74-8A99-FA19-9B1D-F0DA69D0936F</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<referedAttribute>42539543-82AC-59CB-2E0F-8266F7DBBCCF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0C3F5B2-07B2-C219-3420-50FE62ECD0AE" name="COMUNA PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:48:00 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8D1A3A1-F6C1-9182-3A8A-6806E7353E72</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

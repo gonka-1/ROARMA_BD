@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Roarma.V2" id="231B27BA-29F0-FAF6-29C3-69209923C80B" version="3.5">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 12:42:15 UTC</createdTime>
+<ownerDesignName>MER_ROARMA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>231B27BA-29F0-FAF6-29C3-69209923C80B</designId>
+</OSDM_Design>

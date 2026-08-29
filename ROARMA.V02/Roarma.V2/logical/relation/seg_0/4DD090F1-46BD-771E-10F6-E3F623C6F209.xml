@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PUBLICAR" directorySegmentName="seg_0" id="4DD090F1-46BD-771E-10F6-E3F623C6F209">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-08-24 22:44:35 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<targetPk>4B2B42B2-6C20-2CBF-C747-E7EF94134AA8</targetPk>
+<identifying>false</identifying>
+<nameOnSource>es publicado</nameOnSource>
+<nameOnTarget>Publican</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5F6C725C-62BE-9813-D700-9946ED929FDE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A19E9253-17E9-16F3-916A-177F41313227</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

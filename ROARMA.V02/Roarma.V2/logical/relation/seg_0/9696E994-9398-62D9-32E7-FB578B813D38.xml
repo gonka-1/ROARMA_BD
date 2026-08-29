@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FIRMAR" directorySegmentName="seg_0" id="9696E994-9398-62D9-32E7-FB578B813D38">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:28:40 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<sourcePk>4B2B42B2-6C20-2CBF-C747-E7EF94134AA8</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>firma</nameOnSource>
+<nameOnTarget>es firmado</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A19E9253-17E9-16F3-916A-177F41313227</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>615826FC-43FC-8423-1296-8DA7A42F9E96</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Residencia" directorySegmentName="seg_0" id="81565B7F-8259-CF14-5B0F-4EFC855548C5">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-08-24 23:28:37 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<sourcePk>F0C3F5B2-07B2-C219-3420-50FE62ECD0AE</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Reside</nameOnSource>
+<nameOnTarget>Residen</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DFB60861-649C-6FD9-48FC-5D2962735BC7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1A1CFCD7-86DA-44A7-4B5E-39D79D26C323</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

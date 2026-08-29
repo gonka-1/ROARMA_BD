@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Emitir" directorySegmentName="seg_0" id="E3D624AF-B9AF-4A6E-80FD-0507124ACF40">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-08-24 23:02:51 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<sourcePk>BF33FC7E-4CBD-D9E8-F7DD-8342022EF67B</sourcePk>
+<targetPk>0CD967CA-81BD-E08E-7C2B-90D18EAF27D9</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Emite</nameOnSource>
+<nameOnTarget>Son emitidas</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>262E3FB2-88FF-5816-FAF0-49B4C3FF428E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A6BD4F11-C5EA-A2B5-6055-28EDC0EE07C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

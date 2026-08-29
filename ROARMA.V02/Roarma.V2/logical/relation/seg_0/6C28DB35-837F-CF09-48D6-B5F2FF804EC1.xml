@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Enviar" directorySegmentName="seg_0" id="6C28DB35-837F-CF09-48D6-B5F2FF804EC1">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-08-24 22:58:29 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<sourcePk>BF33FC7E-4CBD-D9E8-F7DD-8342022EF67B</sourcePk>
+<targetPk>82E330B1-737D-C5B3-C1ED-590537031450</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Envian</nameOnSource>
+<nameOnTarget>Son enviados</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1A1CFCD7-86DA-44A7-4B5E-39D79D26C323</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E82E29A2-ED97-FB4C-7F63-61FF5BD92403</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Devengar" directorySegmentName="seg_0" id="613667EC-7BE4-3503-2F70-7001672599F5">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-08-24 23:09:17 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<sourcePk>0B05FA79-9415-3642-140B-B0B6FF459A38</sourcePk>
+<targetPk>7A17F669-5482-EF4E-29F2-033CF1ED87BD</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Devenga</nameOnSource>
+<nameOnTarget>Es devengado</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>615826FC-43FC-8423-1296-8DA7A42F9E96</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A17991F8-B70C-0C48-8CFF-2F2EB7DE123C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

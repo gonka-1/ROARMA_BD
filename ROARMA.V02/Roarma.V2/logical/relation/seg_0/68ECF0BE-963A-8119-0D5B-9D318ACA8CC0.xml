@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FORMAN" directorySegmentName="seg_0" id="68ECF0BE-963A-8119-0D5B-9D318ACA8CC0">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-08-29 02:39:59 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>es formada</nameOnSource>
+<nameOnTarget>forma</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0EC1857C-55F2-6B42-B23F-4DF3A78F1664</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DFB60861-649C-6FD9-48FC-5D2962735BC7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

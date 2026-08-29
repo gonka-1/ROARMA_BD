@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INSCRIBIR" directorySegmentName="seg_0" id="CEF994A3-E8AD-1429-D3CB-0F58DA5F2DFD">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-08-24 22:52:26 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>inscribe</nameOnSource>
+<nameOnTarget>es inscrita</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A19E9253-17E9-16F3-916A-177F41313227</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3F6E5796-60AF-9BB2-4850-66990380A13B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

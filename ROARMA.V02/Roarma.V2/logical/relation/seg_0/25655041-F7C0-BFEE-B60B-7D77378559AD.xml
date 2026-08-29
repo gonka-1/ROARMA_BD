@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contener" directorySegmentName="seg_0" id="25655041-F7C0-BFEE-B60B-7D77378559AD">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-08-24 22:55:41 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<sourcePk>D87517FC-295D-DC98-68AC-8BE5DED440B2</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Contiene</nameOnSource>
+<nameOnTarget>Son contenidas</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9D38583A-3D5E-D186-9ACC-9843F72ABD8B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0EB0E102-B839-873B-7E40-E46E14F4A9A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

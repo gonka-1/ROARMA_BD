@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSEER" directorySegmentName="seg_0" id="A5B16A9B-E68D-9E38-AD89-DCB674CF001C">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-08-24 22:47:48 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<sourcePk>4B2B42B2-6C20-2CBF-C747-E7EF94134AA8</sourcePk>
+<targetPk>5A9DBA5D-A397-09E4-3BE7-348DE80B6405</targetPk>
+<identifying>false</identifying>
+<nameOnSource>posee</nameOnSource>
+<nameOnTarget>es poseido</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A19E9253-17E9-16F3-916A-177F41313227</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0C93D932-2FCC-8F62-4B75-F401207EF271</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

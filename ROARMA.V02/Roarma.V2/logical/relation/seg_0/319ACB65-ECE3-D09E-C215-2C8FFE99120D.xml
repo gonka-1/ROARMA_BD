@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RELACIONAR" directorySegmentName="seg_0" id="319ACB65-ECE3-D09E-C215-2C8FFE99120D">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:27:39 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<sourcePk>4B0BD337-B765-FFA3-B13D-3FC11123892C</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>se relaciona</nameOnSource>
+<nameOnTarget>es relacionado</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>39B7D8A6-C48C-400A-1C7E-7A83D1028849</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>615826FC-43FC-8423-1296-8DA7A42F9E96</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

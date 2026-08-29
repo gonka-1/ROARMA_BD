@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="615826FC-43FC-8423-1296-8DA7A42F9E96" name="CONTRATO">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 12:43:27 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cont" id="07D3C23D-6887-BE10-5E0F-393D9F8A2B81">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:33:45 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cli" id="B6666058-75BC-48A6-A6F0-1DB10F65CD5C">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:37:53 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run_pro" id="880EFF56-D006-D79B-C3FE-04E05353951A">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:37:53 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="soli_id" id="CCB0A6E0-72E4-BF83-E8AF-08EB976E7997">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:34:03 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_acor" id="63D9F72C-F506-35D0-3898-8F3AE6BE584D">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:34:14 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion_cont" id="C63A08C6-7E60-7037-8E95-53B94A1C0F9E">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:35:26 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_cont" id="8EB937A3-ED3C-0094-7603-6CEE76AAE4A3">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:36:37 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fec_acue_cont" id="2C28F177-CC97-1EB8-A3E8-FFF981F3E42D">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:37:03 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="soli_id1" id="F5875283-7B9D-CF1E-3790-2D1D3D663183">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-08-24 23:05:46 UTC</createdTime>
+<generatorID>FDCCD3EB-9510-7EA3-F2C5-455790713D3D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<referedAttribute>31E8CA7A-8DCE-F1CB-E8C2-EF0818C8E1E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pago" id="B0731D94-207B-6678-A2A9-AB0301ADC81F">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-08-24 23:09:34 UTC</createdTime>
+<generatorID>613667EC-7BE4-3503-2F70-7001672599F5</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<referedAttribute>28A07F3A-2844-3434-3376-07F1663255E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cli1" id="FF804C5C-1F4C-D011-3F85-0DB52B0DEA2E">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:27:39 UTC</createdTime>
+<generatorID>319ACB65-ECE3-D09E-C215-2C8FFE99120D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<referedAttribute>02C72E7D-9156-ABB3-621A-4333F945FA55</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run_pro1" id="803A62DC-527A-209A-2D32-EFF425CE1FD6">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:28:40 UTC</createdTime>
+<generatorID>9696E994-9398-62D9-32E7-FB578B813D38</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<referedAttribute>42129225-0CD2-434E-B27D-4A64956731E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B05FA79-9415-3642-140B-B0B6FF459A38" name="CONTRATO PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-24 13:34:01 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>07D3C23D-6887-BE10-5E0F-393D9F8A2B81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERTENECER" directorySegmentName="seg_0" id="38830645-7A01-F477-3FEC-3A57F60C8744">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-08-29 02:39:45 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<sourcePk>6D0F092D-DFDB-E1AE-C545-FB67BA26B969</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>le pertencencen </nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0EB0E102-B839-873B-7E40-E46E14F4A9A3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0EC1857C-55F2-6B42-B23F-4DF3A78F1664</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

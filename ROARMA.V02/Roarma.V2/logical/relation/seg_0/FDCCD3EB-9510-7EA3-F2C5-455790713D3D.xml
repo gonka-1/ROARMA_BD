@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Generar" directorySegmentName="seg_0" id="FDCCD3EB-9510-7EA3-F2C5-455790713D3D">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-08-24 23:05:27 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<sourcePk>0B05FA79-9415-3642-140B-B0B6FF459A38</sourcePk>
+<targetPk>0CD967CA-81BD-E08E-7C2B-90D18EAF27D9</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Es generado</nameOnSource>
+<nameOnTarget>Genera</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>615826FC-43FC-8423-1296-8DA7A42F9E96</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A6BD4F11-C5EA-A2B5-6055-28EDC0EE07C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

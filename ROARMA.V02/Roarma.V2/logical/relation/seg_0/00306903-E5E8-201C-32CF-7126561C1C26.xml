@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Acreditar" directorySegmentName="seg_0" id="00306903-E5E8-201C-32CF-7126561C1C26">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-08-24 23:27:37 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<sourcePk>4B2B42B2-6C20-2CBF-C747-E7EF94134AA8</sourcePk>
+<targetPk>4B2B42B2-6C20-2CBF-C747-E7EF94134AA8</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Acredita</nameOnSource>
+<nameOnTarget>Es acreditada</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A19E9253-17E9-16F3-916A-177F41313227</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E612A6B2-6A0C-A9E4-93C9-165A5412C70D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fecha_validacion" id="545A4303-0A6B-B59A-6643-BAFDDF45263A">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:23:36 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="vigencia_validacion" id="53B6718B-62F4-24BA-AA6F-062D3A8246B3">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:23:48 UTC</createdTime>
+<comment><![CDATA[validado en meses]]></comment>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
