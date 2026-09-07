@@ -1,0 +1,18 @@
+II ESTADO DEL ARTE
+	2.1 Nombre de proyecto
+	2.2 Slogan de proyecto
+	2.3 Contexto
+	2.4 Problemática y/o necesidad
+	2.5 Solución
+	2.6 Estudio de Mercado
+	2.7 Alcance
+		2.7.1 Corto Alcance
+		2.7.2 Mediano Alcance
+		2.7.3 Largo Alcance
+	2.8 Análisis de tecnologías (lista de tecnologías posibles a usar)
+
+III DEFINICION DE PROYECTO
+	3.1 Misión de proyecto
+	3.2 Visión de proyecto
+	3.3 Objetivo General
+	3.4 Objetivos específicos(mínimo 4)
