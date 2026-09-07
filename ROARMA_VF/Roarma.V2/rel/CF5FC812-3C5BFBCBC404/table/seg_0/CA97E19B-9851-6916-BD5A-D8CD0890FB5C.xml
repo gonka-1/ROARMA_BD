@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA97E19B-9851-6916-BD5A-D8CD0890FB5C" name="VALOR_HORA">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>223F7731-6408-8C56-347B-8023C1E4EEAA</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="run_pro" id="8F03F03D-1DE7-2CCC-5FF3-64B459F99E3B">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>FB7921E1-A934-B906-A2A2-DD5F852B73E8</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_esp" id="E9317EE9-0F03-D355-26DD-A61F704ACC46">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>8C4CD69D-637E-E435-3925-3CA1CF638A40</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tar_hor" id="AEC6B1C4-8297-5AD9-3F40-3FC8B4675B81">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>119C937A-BE8B-30EB-5E52-51FA644BC195</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_HORA_ID" id="CD3EA2CF-91FD-6D5F-8E1F-D71215535B5A">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A07523A-F83E-F25B-9540-92D13D68CBD8" name="VALOR_HORA_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="CD3EA2CF-91FD-6D5F-8E1F-D71215535B5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

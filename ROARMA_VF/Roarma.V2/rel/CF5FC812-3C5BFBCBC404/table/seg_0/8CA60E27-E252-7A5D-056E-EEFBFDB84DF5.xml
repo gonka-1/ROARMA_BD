@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CA60E27-E252-7A5D-056E-EEFBFDB84DF5" name="VERIFICACION_CUENTA">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>E612A6B2-6A0C-A9E4-93C9-165A5412C70D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_seg" id="C7355286-5745-973A-C290-EC1253E3F38C">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>E6DD93DB-E054-85D2-0DE9-80D708B199E5</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="certifi_inha_seg" id="43CC5F91-0296-C236-1B35-334A4739309B">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>A00873EE-595A-C18B-65C5-F99AAB077CF8</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="run_pro" id="3984BC2C-EF3A-9094-E3D5-9A1B31248C1B">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>DBEABE31-37FB-98CB-516D-4BD762C2D33D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="est_verificacion" id="15CA1D34-59DC-6676-4F90-C39184560283">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>01A495CF-106F-3E9F-627D-5AF8E7A3D9C1</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_est_ver" id="2DE8F9C1-63B2-6AF6-55E7-E7012E87D731">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>6B54D858-6810-CCD2-7A25-05F561925357</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESOR_run_pro" id="935050FD-8927-5DC4-D24A-CFAFBE6F2AD4">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>63BE87BF-4714-55CB-771E-E109E36038E5</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0303302D-2216-9828-F143-69E649F9E31F" referredColumn="0E166331-BA47-7315-7F17-C2E467B27902"/>
+</associations>
+</Column>
+<Column name="fecha_validacion" id="8EA5551C-FBD5-6792-E0DA-5E2FC751D369">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>545A4303-0A6B-B59A-6643-BAFDDF45263A</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>0303302D-2216-9828-F143-69E649F9E31F</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="vigencia_validacion" id="7BF95A00-74C9-8FE5-A458-474F9E64DC6B">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<comment><![CDATA[validado en meses]]></comment>
+<generatorID>53B6718B-62F4-24BA-AA6F-062D3A8246B3</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>0303302D-2216-9828-F143-69E649F9E31F</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A3E196B-9BC6-E87C-F6D8-0E5FCDCB395B" name="VERIFICACION_CUENTA_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>CDE20A1D-CF1E-33ED-A710-F5EFF2033BC6</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7355286-5745-973A-C290-EC1253E3F38C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9E6BF4A-4ECD-5FDC-4B02-7ECCCA6EDA1B" name="VERIFICACION_CUENTA_PROFESOR_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>00306903-E5E8-201C-32CF-7126561C1C26</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="935050FD-8927-5DC4-D24A-CFAFBE6F2AD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

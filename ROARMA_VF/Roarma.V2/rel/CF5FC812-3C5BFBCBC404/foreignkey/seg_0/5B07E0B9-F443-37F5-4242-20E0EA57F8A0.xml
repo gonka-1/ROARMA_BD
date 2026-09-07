@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5B07E0B9-F443-37F5-4242-20E0EA57F8A0" containerWithKeyObject="D8EAD4E4-BE6C-C14F-D237-D7C27641521E" localFKIndex="53BC5150-CE9F-2911-484C-EE3981043B77" name="COMUNA_DISPONIBILIDAD_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>08BE4F74-8A99-FA19-9B1D-F0DA69D0936F</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<referredTableLongName>DISPONIBILIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28FF4A27-55FF-2B99-15EE-64132BEB27A8</referredTableID>
+<keyObject>CC844EA6-DDF8-CE8D-9C67-AF5B13288749</keyObject>
+<referredKeyID>CC844EA6-DDF8-CE8D-9C67-AF5B13288749</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_dis</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

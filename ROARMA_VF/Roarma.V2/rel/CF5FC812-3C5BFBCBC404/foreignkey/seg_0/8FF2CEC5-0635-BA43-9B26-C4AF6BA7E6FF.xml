@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8FF2CEC5-0635-BA43-9B26-C4AF6BA7E6FF" containerWithKeyObject="355FF273-6D25-33C9-4AA2-1FB01B6B3BB6" localFKIndex="157E75B3-2613-CF81-A46E-9FDA04381B54" name="CONTRATO_PROFESOR_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>9696E994-9398-62D9-32E7-FB578B813D38</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<referredTableLongName>PROFESOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>68E3898F-ED98-36FC-1287-38C877DB2CAE</referredTableID>
+<keyObject>332BE233-4266-A100-DA06-292583898D29</keyObject>
+<referredKeyID>332BE233-4266-A100-DA06-292583898D29</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>run_pro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

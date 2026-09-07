@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CURSAR" directorySegmentName="seg_0" id="614C57D4-60F2-DE55-3B51-F0F35E5897AE">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:08:22 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>es cursada</nameOnSource>
+<nameOnTarget>cursa</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6AB669BB-B530-DEBA-43F2-FB20F2879212</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>262E3FB2-88FF-5816-FAF0-49B4C3FF428E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

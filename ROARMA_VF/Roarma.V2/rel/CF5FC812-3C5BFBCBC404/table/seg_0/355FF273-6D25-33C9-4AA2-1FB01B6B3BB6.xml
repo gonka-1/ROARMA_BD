@@ -1,0 +1,251 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="355FF273-6D25-33C9-4AA2-1FB01B6B3BB6" name="CONTRATO">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>615826FC-43FC-8423-1296-8DA7A42F9E96</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cont" id="7357F7D2-3F49-392F-3347-889F65B5FFBC">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>07D3C23D-6887-BE10-5E0F-393D9F8A2B81</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cli" id="D8EEB97D-C86F-F156-6AAA-7E7739E5E4D9">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>B6666058-75BC-48A6-A6F0-1DB10F65CD5C</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="run_pro" id="A1EEF44C-CC42-937C-DF71-1958E79C7401">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>880EFF56-D006-D79B-C3FE-04E05353951A</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="soli_id" id="4A31E370-38E1-1520-63CB-5D173B7E500A">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>CCB0A6E0-72E4-BF83-E8AF-08EB976E7997</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_acor" id="DC3F0BB5-00B4-03F7-A9E7-2800D5F6CB61">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>63D9F72C-F506-35D0-3898-8F3AE6BE584D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracion_cont" id="4991AD1F-C69A-D2A8-D419-3983B65FAB98">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>C63A08C6-7E60-7037-8E95-53B94A1C0F9E</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_cont" id="EEF4B36F-2D5A-4B4D-0EFF-D84C0C391A39">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>8EB937A3-ED3C-0094-7603-6CEE76AAE4A3</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_acue_cont" id="5FE9A214-B04D-5C8D-9E5C-2A04A8B51377">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>2C28F177-CC97-1EB8-A3E8-FFF981F3E42D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOLICITUD_soli_id" id="F6949CBE-D830-C9EE-6DCB-A258DD6F6BA2">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>F5875283-7B9D-CF1E-3790-2D1D3D663183</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EECAA9B-B760-5A92-A276-465668E2E306" referredColumn="116271BB-5687-B207-D9C0-3B8B1FF36390"/>
+</associations>
+</Column>
+<Column name="PAGO_id_pago" id="812A48F1-D5E2-5729-8EA4-FA677A9C6C3C">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>B0731D94-207B-6678-A2A9-AB0301ADC81F</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F8F3AFA-A9DB-444D-AC19-C5308596BBDE" referredColumn="C96CB75C-4BE8-739D-B27A-9ADD01480422"/>
+</associations>
+</Column>
+<Column name="CLIENTE_id_cli" id="5B861B26-9803-EE0F-5AA8-54B7AABED7B2">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>FF804C5C-1F4C-D011-3F85-0DB52B0DEA2E</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83E190B2-C41A-AC35-AE6D-5299638CBCCB" referredColumn="74F6A4F3-6CB2-7FF0-1FA2-5433BA823F03"/>
+</associations>
+</Column>
+<Column name="PROFESOR_run_pro" id="ACD37F45-8C33-FA6B-15A7-56AA6BE660EE">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>803A62DC-527A-209A-2D32-EFF425CE1FD6</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FF2CEC5-0635-BA43-9B26-C4AF6BA7E6FF" referredColumn="0E166331-BA47-7315-7F17-C2E467B27902"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9DC12D2-C1DA-8984-DEF3-C66DAF3F6C8C" name="CONTRATO_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>0B05FA79-9415-3642-140B-B0B6FF459A38</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7357F7D2-3F49-392F-3347-889F65B5FFBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DA9C8FC-7A51-91F1-1C62-42AB83D0CC06" name="CONTRATO__IDX">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>613667EC-7BE4-3503-2F70-7001672599F5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="812A48F1-D5E2-5729-8EA4-FA677A9C6C3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBFEA775-B40E-2A3D-F9B5-339EE039A6BE" name="CONTRATO__IDXv1">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FDCCD3EB-9510-7EA3-F2C5-455790713D3D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F6949CBE-D830-C9EE-6DCB-A258DD6F6BA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA8A32EF-9432-FF57-6CA8-9488FCC4C6A5" name="CONTRATO_PAGO_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>613667EC-7BE4-3503-2F70-7001672599F5</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="812A48F1-D5E2-5729-8EA4-FA677A9C6C3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="157E75B3-2613-CF81-A46E-9FDA04381B54" name="CONTRATO_PROFESOR_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>9696E994-9398-62D9-32E7-FB578B813D38</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACD37F45-8C33-FA6B-15A7-56AA6BE660EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11094918-61BD-31A8-CB06-7BE499E09472" name="CONTRATO_SOLICITUD_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>FDCCD3EB-9510-7EA3-F2C5-455790713D3D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6949CBE-D830-C9EE-6DCB-A258DD6F6BA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D292069-1A69-CDAC-DA58-F27E6F2D699C" name="CONTRATO_CLIENTE_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>319ACB65-ECE3-D09E-C215-2C8FFE99120D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B861B26-9803-EE0F-5AA8-54B7AABED7B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

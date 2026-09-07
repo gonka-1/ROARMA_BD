@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68E3898F-ED98-36FC-1287-38C877DB2CAE" name="PROFESOR">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>A19E9253-17E9-16F3-916A-177F41313227</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="run_per" id="C33CA346-68C8-01B8-2CFD-7F42B8C2CC9B">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>88E3F509-9233-6DEB-CD9C-7D2FABFC3DBD</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9752610C-FC19-6069-9973-1C55692AF532" referredColumn="5C68D384-36B4-E4D2-EB4E-6647DE785491"/>
+</associations>
+</Column>
+<Column name="run_pro" id="0E166331-BA47-7315-7F17-C2E467B27902">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>42129225-0CD2-434E-B27D-4A64956731E0</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bio_pro" id="94EE99E4-983F-D3CB-627F-CEEE6B13AC1C">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[biografía profesor]]></commentInRDBMS>
+<generatorID>EC89534B-40D2-704C-185D-14F7AE1C8CD3</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitud_act" id="893C2BE3-CF42-AE5E-DE8C-2ADFD3DE0E10">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[latitud actual]]></commentInRDBMS>
+<generatorID>723EA912-A4C9-F0F9-28BD-92964638CE8F</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitud_act" id="C235772A-CD8F-49DC-BA42-8C099CEE28A8">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[longitud actual]]></commentInRDBMS>
+<generatorID>3F6A3A02-1ADF-D094-9DEA-B7777E475C07</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ult_act_ubi" id="B9F79950-83A2-8552-C54A-CEAE7C121E79">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>9A320E6D-B3B3-E383-AB2F-1E9D9674278B</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cal_pro_pro" id="A611ACAA-4FF0-2C38-24FE-C869671A6EB7">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[calificacion promedio profesor]]></commentInRDBMS>
+<generatorID>2BE3FD26-D68C-D59B-636F-7D6B1454D342</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AECC3E23-FBEC-5ADB-7B48-67B16666D20E" name="PROFESOR_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>BF33FC7E-4CBD-D9E8-F7DD-8342022EF67B</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C33CA346-68C8-01B8-2CFD-7F42B8C2CC9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="332BE233-4266-A100-DA06-292583898D29" name="PROFESOR_PKv1">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>4B2B42B2-6C20-2CBF-C747-E7EF94134AA8</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E166331-BA47-7315-7F17-C2E467B27902"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9B8E664-83A3-DC97-0918-2BEFF4814196" name="PROFESOR_PERSONA_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>A53E3470-C1A7-FE1F-2624-A9625FEABDE2</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C33CA346-68C8-01B8-2CFD-7F42B8C2CC9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

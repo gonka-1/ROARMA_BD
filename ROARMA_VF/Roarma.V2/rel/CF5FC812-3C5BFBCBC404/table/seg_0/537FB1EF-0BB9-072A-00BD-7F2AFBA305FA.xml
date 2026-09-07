@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="537FB1EF-0BB9-072A-00BD-7F2AFBA305FA" name="INSCRIBIR">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROFESOR_run_per" id="11E020C0-F8B4-7B86-0235-A7D49B8220B3">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E018FCA4-4D81-4784-D545-E636499A900D" referredColumn="C33CA346-68C8-01B8-2CFD-7F42B8C2CC9B"/>
+</associations>
+</Column>
+<Column name="ESPECIALIDAD_id_esp" id="CF2D40C5-2947-C868-423A-9ADBC3D93D8E">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD7C40FE-BAEB-69A6-E02E-8C22E12775C2" referredColumn="076BE2D1-A0A7-EB41-F857-143BDCBD1174"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74B8AED2-0025-B285-E263-824A7B367F21" name="INSCRIBIR_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11E020C0-F8B4-7B86-0235-A7D49B8220B3"/>
+<colUsage columnID="CF2D40C5-2947-C868-423A-9ADBC3D93D8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21936B7F-46BE-3DAC-F415-70D0EA2AA3AC" name="INSCRIBIR_PROFESOR_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>CEF994A3-E8AD-1429-D3CB-0F58DA5F2DFD</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11E020C0-F8B4-7B86-0235-A7D49B8220B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8888A33-EC1B-866A-36E8-629A0C1E107B" name="INSCRIBIR_ESPECIALIDAD_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>CEF994A3-E8AD-1429-D3CB-0F58DA5F2DFD</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF2D40C5-2947-C868-423A-9ADBC3D93D8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

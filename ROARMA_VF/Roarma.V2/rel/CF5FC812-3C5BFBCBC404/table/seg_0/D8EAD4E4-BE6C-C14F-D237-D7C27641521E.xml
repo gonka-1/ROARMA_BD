@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8EAD4E4-BE6C-C14F-D237-D7C27641521E" name="COMUNA">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>DFB60861-649C-6FD9-48FC-5D2962735BC7</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comuna" id="32905C18-CE50-E1EB-A278-D682954BFF54">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>E8D1A3A1-F6C1-9182-3A8A-6806E7353E72</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_comuna" id="31BEC627-1F2C-5359-F229-5E1F73681820">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>96DCF37A-E6F9-FD17-B412-00EE8E72E2D3</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISPONIBILIDAD_id_dis" id="12DDC0B7-4D05-AC36-C954-6FC4CCA3286D">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>C4012CF8-F030-A6EC-B324-119BBAC5D216</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B07E0B9-F443-37F5-4242-20E0EA57F8A0" referredColumn="FE2FFAEC-7F4A-854F-EEBC-944B9043C4E9"/>
+</associations>
+</Column>
+<Column name="CIUDAD_CIUDAD_ID" id="603EAC10-25F2-910E-4024-1B9D9B1607E3">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE55187C-0177-0638-7414-09F4937D12AE" referredColumn="43FB68C5-81DD-7466-DD76-458393F697A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3670C594-34F5-236F-68B7-1D970FC62C97" name="COMUNA_PK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>F0C3F5B2-07B2-C219-3420-50FE62ECD0AE</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32905C18-CE50-E1EB-A278-D682954BFF54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B25018C9-D3B0-6B26-C605-8486868F9643" name="COMUNA_CIUDAD_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>68ECF0BE-963A-8119-0D5B-9D318ACA8CC0</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="603EAC10-25F2-910E-4024-1B9D9B1607E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53BC5150-CE9F-2911-484C-EE3981043B77" name="COMUNA_DISPONIBILIDAD_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>08BE4F74-8A99-FA19-9B1D-F0DA69D0936F</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12DDC0B7-4D05-AC36-C954-6FC4CCA3286D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

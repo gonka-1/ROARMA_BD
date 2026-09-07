@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5AAD9D7F-18F7-F3AD-6732-C5E86F919EED" containerWithKeyObject="13EFF2F0-EFD9-5372-D054-80C19D562325" localFKIndex="D537D534-19C5-CFBA-AD3B-0AAF2EB417FF" name="USUARIO_PERSONA_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>26BCD8B7-625D-979E-CE10-419B67FA0395</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<referredTableLongName>PERSONA</referredTableLongName>
+<arc>2BE78AC7-1A00-D2D1-93EA-461F022299FC</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7FA56A97-33E9-7B1D-93B4-153088DD95D1</referredTableID>
+<keyObject>9C39237F-EC65-25D9-B278-0BCCF6D6FA25</keyObject>
+<referredKeyID>9C39237F-EC65-25D9-B278-0BCCF6D6FA25</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>run_per</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

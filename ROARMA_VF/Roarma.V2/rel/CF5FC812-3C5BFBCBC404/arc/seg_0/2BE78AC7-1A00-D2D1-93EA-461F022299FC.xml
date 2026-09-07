@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="2BE78AC7-1A00-D2D1-93EA-461F022299FC" name="FKArc_1">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>7FA56A97-33E9-7B1D-93B4-153088DD95D1</table>
+<fkeys>
+<fkeyID>5AAD9D7F-18F7-F3AD-6732-C5E86F919EED</fkeyID>
+<fkeyID>03085686-7D12-34BD-7F07-5631EDE18D78</fkeyID>
+<fkeyID>9752610C-FC19-6069-9973-1C55692AF532</fkeyID>
+</fkeys>
+</FKArc>

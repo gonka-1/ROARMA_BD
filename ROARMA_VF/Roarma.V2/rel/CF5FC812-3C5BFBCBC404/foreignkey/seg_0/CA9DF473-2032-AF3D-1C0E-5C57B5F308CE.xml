@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CA9DF473-2032-AF3D-1C0E-5C57B5F308CE" containerWithKeyObject="6B2A4F70-7893-C103-A8D9-6ED6A6F2B775" localFKIndex="1C5562B4-103A-CDCB-6400-204E9CC2EF45" name="Detallar_VALOR_HORA_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>E10918F4-7536-7D48-745E-9F572037293D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<referredTableLongName>VALOR_HORA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA97E19B-9851-6916-BD5A-D8CD0890FB5C</referredTableID>
+<keyObject>2A07523A-F83E-F25B-9540-92D13D68CBD8</keyObject>
+<referredKeyID>2A07523A-F83E-F25B-9540-92D13D68CBD8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>VALOR_HORA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

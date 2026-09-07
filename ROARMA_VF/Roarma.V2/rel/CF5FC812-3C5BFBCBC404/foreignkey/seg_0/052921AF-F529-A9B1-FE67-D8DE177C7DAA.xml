@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="052921AF-F529-A9B1-FE67-D8DE177C7DAA" containerWithKeyObject="13EFF2F0-EFD9-5372-D054-80C19D562325" localFKIndex="AEA7513F-733B-4735-692D-EE2971445C4A" name="USUARIO_SOLICITUD_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>E3D624AF-B9AF-4A6E-80FD-0507124ACF40</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<referredTableLongName>SOLICITUD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>37B2B962-F350-BCCA-D968-DD3C6BBB251D</referredTableID>
+<keyObject>9863907F-2151-BDEC-7784-733C84560065</keyObject>
+<referredKeyID>9863907F-2151-BDEC-7784-733C84560065</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>soli_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

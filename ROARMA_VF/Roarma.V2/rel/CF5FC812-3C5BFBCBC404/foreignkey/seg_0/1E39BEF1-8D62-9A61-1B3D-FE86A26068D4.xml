@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E39BEF1-8D62-9A61-1B3D-FE86A26068D4" containerWithKeyObject="7FA56A97-33E9-7B1D-93B4-153088DD95D1" localFKIndex="89C8DD48-4B86-7954-63CF-DF9A14A14E7B" name="PERSONA_RESENA_FK">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<generatorID>8A1D480E-269C-44E0-4132-9CA833325883</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<referredTableLongName>RESENA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DBCB36EF-B9BE-5733-B13B-ACAA73D149FC</referredTableID>
+<keyObject>BFDE1030-9F54-32AE-30FA-FE375906E5AD</keyObject>
+<referredKeyID>BFDE1030-9F54-32AE-30FA-FE375906E5AD</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>rese_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
