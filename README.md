@@ -1,4 +1,4 @@
-Hola me llamo Matías, soy cofundador y el gei de ROARMA y el gei de Jose :D 
+Hola me llamo Matías, soy cofundador y el gei de ROARMA 
  
 - PRESENTACIÓN:
  
