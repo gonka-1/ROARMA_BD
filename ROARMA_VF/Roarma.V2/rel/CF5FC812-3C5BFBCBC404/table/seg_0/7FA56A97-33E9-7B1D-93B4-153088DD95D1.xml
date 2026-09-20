@@ -126,7 +126,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -143,11 +143,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1E39BEF1-8D62-9A61-1B3D-FE86A26068D4" referredColumn="D290F72D-B0DB-4282-6B8B-230ADE284698"/>
+<colAssociation fkAssociation="93719678-CBC6-957A-3C28-349755F361C9" referredColumn="D290F72D-B0DB-4282-6B8B-230ADE284698"/>
 </associations>
 </Column>
 <Column name="soli_id" id="ACE65E80-F436-25C9-A1E5-C3C4223E6088">
@@ -167,7 +167,6 @@
 <createdTime>2026-08-31 13:11:06 UTC</createdTime>
 <generatorID>2B6ACE17-7C3E-8CE7-48FD-194B99680FF9</generatorID>
 <ownerDesignName>Roarma.V2</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -189,17 +188,6 @@
 <colUsage columnID="5C68D384-36B4-E4D2-EB4E-6647DE785491"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="89C8DD48-4B86-7954-63CF-DF9A14A14E7B" name="PERSONA_RESENA_FK">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-31 13:11:06 UTC</createdTime>
-<generatorID>8A1D480E-269C-44E0-4132-9CA833325883</generatorID>
-<ownerDesignName>Roarma.V2</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="D97414BD-43E4-1C8F-21EC-7796ADCFBF16"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="D3219433-DE35-7D70-2559-EEF20B3A4DE5" name="PERSONA_COMUNA_FK">
 <createdBy>SJ-Alumno</createdBy>
 <createdTime>2026-08-31 13:11:06 UTC</createdTime>
@@ -209,6 +197,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8A572B1A-E7D1-21B3-C4D2-0DABF6BFCEDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DEE5C5D-BF67-3931-3C03-89ABE4218447" name="PERSONA_RESENA_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-09-16 01:24:45 UTC</createdTime>
+<generatorID>8A1D480E-269C-44E0-4132-9CA833325883</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D97414BD-43E4-1C8F-21EC-7796ADCFBF16"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -4,6 +4,7 @@
 <createdTime>2026-08-31 13:11:06 UTC</createdTime>
 <generatorID>E612A6B2-6A0C-A9E4-93C9-165A5412C70D</generatorID>
 <ownerDesignName>Roarma.V2</ownerDesignName>
+<ordsAlias>verificacion_cuenta</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -76,7 +77,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>13</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -118,7 +119,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7A3E196B-9BC6-E87C-F6D8-0E5FCDCB395B" name="VERIFICACION_CUENTA_PK">
+<ind_PK_UK id="7A3E196B-9BC6-E87C-F6D8-0E5FCDCB395B" name="VERIF_CUENTA_PK">
 <createdBy>SJ-Alumno</createdBy>
 <createdTime>2026-08-31 13:11:06 UTC</createdTime>
 <generatorID>CDE20A1D-CF1E-33ED-A710-F5EFF2033BC6</generatorID>
@@ -130,7 +131,7 @@
 <colUsage columnID="C7355286-5745-973A-C290-EC1253E3F38C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E9E6BF4A-4ECD-5FDC-4B02-7ECCCA6EDA1B" name="VERIFICACION_CUENTA_PROFESOR_FK">
+<ind_PK_UK id="E9E6BF4A-4ECD-5FDC-4B02-7ECCCA6EDA1B" name="VERIF_CUENTA_PROFESOR_FK">
 <createdBy>SJ-Alumno</createdBy>
 <createdTime>2026-08-31 13:11:06 UTC</createdTime>
 <generatorID>00306903-E5E8-201C-32CF-7126561C1C26</generatorID>

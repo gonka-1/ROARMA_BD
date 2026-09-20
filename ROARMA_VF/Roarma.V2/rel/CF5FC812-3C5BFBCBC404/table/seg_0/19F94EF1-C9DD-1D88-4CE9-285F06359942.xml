@@ -13,7 +13,6 @@
 <createdTime>2026-08-31 13:11:06 UTC</createdTime>
 <generatorID>5F921ACF-5A4F-449C-929C-646C6845CA28</generatorID>
 <ownerDesignName>Roarma.V2</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -26,7 +25,6 @@
 <createdTime>2026-08-31 13:11:06 UTC</createdTime>
 <generatorID>082C1666-6544-AB64-7489-A4E22B1C02B6</generatorID>
 <ownerDesignName>Roarma.V2</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -73,8 +71,11 @@
 <commentInRDBMS><![CDATA[Resultado de aprendizaje]]></commentInRDBMS>
 <generatorID>0320AF3E-925E-BE45-4357-68F422AE22F3</generatorID>
 <ownerDesignName>Roarma.V2</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PROFESOR_run_pro" id="33CA2123-941D-39A3-C3BA-9E87FC85FDF9">
@@ -86,7 +87,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>13</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

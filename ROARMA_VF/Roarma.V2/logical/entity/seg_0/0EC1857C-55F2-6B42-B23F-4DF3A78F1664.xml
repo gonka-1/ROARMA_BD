@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -58,4 +57,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="618AD40B-C581-A2F1-0D2F-A8D1F1E80C28" name="CIUDAD PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-09-16 01:21:35 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F696FCC4-84BB-C622-66BA-D343F99A36B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

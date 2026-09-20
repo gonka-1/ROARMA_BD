@@ -54,7 +54,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -62,8 +62,9 @@
 <createdBy>SJ-Alumno</createdBy>
 <createdTime>2026-08-24 13:47:31 UTC</createdTime>
 <ownerDesignName>Roarma.V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

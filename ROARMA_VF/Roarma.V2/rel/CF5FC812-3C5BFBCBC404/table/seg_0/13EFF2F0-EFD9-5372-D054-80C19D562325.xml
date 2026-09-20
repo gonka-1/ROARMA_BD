@@ -28,7 +28,6 @@
 <createdTime>2026-08-31 13:11:06 UTC</createdTime>
 <generatorID>BDF79FE1-92A1-6F4F-5A81-505C61277488</generatorID>
 <ownerDesignName>Roarma.V2</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -124,7 +123,6 @@
 <createdTime>2026-08-31 13:11:06 UTC</createdTime>
 <generatorID>5042FDB2-D4F2-4EE7-2274-F4A514CBF324</generatorID>
 <ownerDesignName>Roarma.V2</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -141,11 +139,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="052921AF-F529-A9B1-FE67-D8DE177C7DAA" referredColumn="116271BB-5687-B207-D9C0-3B8B1FF36390"/>
+<colAssociation fkAssociation="E71157BD-3D17-EACB-4B16-C75C5D5B8C35" referredColumn="116271BB-5687-B207-D9C0-3B8B1FF36390"/>
 </associations>
 </Column>
 <Column name="CLIENTE_id_cli" id="53E5EF8F-9242-766B-EFA5-CE258446CBB1">
@@ -157,7 +155,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -178,6 +176,17 @@
 <colUsage columnID="6E7DF7E6-C188-4938-1ECA-5A6425F0F6B3"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="E2F63AF3-55A1-BC03-C8CB-839AFB88CA29" name="USUARIO_PKv1">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-09-16 01:24:45 UTC</createdTime>
+<generatorID>143E9AC9-5CB2-04E4-1A6F-51C0FD7C55FE</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B81D9AB2-0E0E-080C-6BF6-EFB6E471E6EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="D537D534-19C5-CFBA-AD3B-0AAF2EB417FF" name="USUARIO_PERSONA_FK">
 <createdBy>SJ-Alumno</createdBy>
 <createdTime>2026-08-31 13:11:06 UTC</createdTime>
@@ -189,17 +198,6 @@
 <colUsage columnID="6E7DF7E6-C188-4938-1ECA-5A6425F0F6B3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AEA7513F-733B-4735-692D-EE2971445C4A" name="USUARIO_SOLICITUD_FK">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-31 13:11:06 UTC</createdTime>
-<generatorID>E3D624AF-B9AF-4A6E-80FD-0507124ACF40</generatorID>
-<ownerDesignName>Roarma.V2</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B7601D7A-76A3-7B72-167C-B9632F780D91"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="145635BD-119B-E62C-B8FF-5306E5B96D99" name="USUARIO_CLIENTE_FK">
 <createdBy>SJ-Alumno</createdBy>
 <createdTime>2026-08-31 13:11:06 UTC</createdTime>
@@ -209,6 +207,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="53E5EF8F-9242-766B-EFA5-CE258446CBB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81F3EAD3-939F-E955-7F91-EB93C1CA1FB6" name="USUARIO_SOLICITUD_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-09-16 01:24:45 UTC</createdTime>
+<generatorID>E3D624AF-B9AF-4A6E-80FD-0507124ACF40</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7601D7A-76A3-7B72-167C-B9632F780D91"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -54,7 +54,22 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ciudad" id="1461DA30-4800-035C-5EAC-558962014ACA">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-09-16 01:21:36 UTC</createdTime>
+<generatorID>68ECF0BE-963A-8119-0D5B-9D318ACA8CC0</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<referedAttribute>F696FCC4-84BB-C622-66BA-D343F99A36B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -62,8 +77,9 @@
 <createdBy>SJ-Alumno</createdBy>
 <createdTime>2026-08-24 13:48:00 UTC</createdTime>
 <ownerDesignName>Roarma.V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -38,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="monto_pago" id="545A4E0D-95E8-AD3C-6E78-79749FE30AF5">
 <createdBy>SJ-Alumno</createdBy>
@@ -104,7 +105,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_cli" id="7F7E097B-C35D-B8FC-FD08-4EF419EA0289">
 <createdBy>SJ-Alumno</createdBy>
@@ -119,7 +120,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -127,8 +128,9 @@
 <createdBy>SJ-Alumno</createdBy>
 <createdTime>2026-08-24 13:42:28 UTC</createdTime>
 <ownerDesignName>Roarma.V2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

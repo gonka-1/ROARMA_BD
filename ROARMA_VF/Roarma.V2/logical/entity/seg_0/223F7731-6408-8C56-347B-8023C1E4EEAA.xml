@@ -28,7 +28,7 @@
 <dataTypeSize>13</dataTypeSize>
 <ownDataTypeParameters>13,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_esp" id="8C4CD69D-637E-E435-3925-3CA1CF638A40">
+<Attribute name="id_valor_hora" id="8C4CD69D-637E-E435-3925-3CA1CF638A40">
 <createdBy>SJ-Alumno</createdBy>
 <createdTime>2026-08-24 13:12:05 UTC</createdTime>
 <ownerDesignName>Roarma.V2</ownerDesignName>
@@ -55,4 +55,18 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E37BB4DF-B910-0D46-774D-5496FE1887ED" name="VALOR_HORA PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-09-16 01:23:03 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C4CD69D-637E-E435-3925-3CA1CF638A40</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

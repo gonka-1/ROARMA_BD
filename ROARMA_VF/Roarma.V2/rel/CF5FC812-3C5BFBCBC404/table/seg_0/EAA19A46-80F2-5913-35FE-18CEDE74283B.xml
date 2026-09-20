@@ -28,7 +28,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="monto_pago" id="5C091D7B-9092-135A-A3A8-1E888278F9B7">
@@ -87,12 +88,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="8D7C43BC-AF17-137F-23F2-121FCDAA8982" referredColumn="7357F7D2-3F49-392F-3347-889F65B5FFBC"/>
-</associations>
 </Column>
 <Column name="CLIENTE_id_cli" id="61955F48-694C-4851-675C-988A8AC26B6D">
 <createdBy>SJ-Alumno</createdBy>
@@ -103,7 +101,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -131,17 +129,6 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>613667EC-7BE4-3503-2F70-7001672599F5</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="6BB40C5B-15D1-C3F7-1243-21A8D6618266"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D0789A51-748E-4E34-4680-CA0FA339B208" name="PAGO_CONTRATO_FK">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-31 13:11:06 UTC</createdTime>
-<generatorID>613667EC-7BE4-3503-2F70-7001672599F5</generatorID>
-<ownerDesignName>Roarma.V2</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6BB40C5B-15D1-C3F7-1243-21A8D6618266"/>
 </indexColumnUsage>

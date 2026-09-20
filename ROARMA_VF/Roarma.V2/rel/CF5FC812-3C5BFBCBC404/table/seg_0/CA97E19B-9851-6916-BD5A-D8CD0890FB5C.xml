@@ -20,7 +20,7 @@
 <ownDataTypeParameters>13,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_esp" id="E9317EE9-0F03-D355-26DD-A61F704ACC46">
+<Column name="id_valor_hora" id="E9317EE9-0F03-D355-26DD-A61F704ACC46">
 <createdBy>SJ-Alumno</createdBy>
 <createdTime>2026-08-31 13:11:06 UTC</createdTime>
 <generatorID>8C4CD69D-637E-E435-3925-3CA1CF638A40</generatorID>
@@ -67,6 +67,17 @@
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
 <colUsage columnID="CD3EA2CF-91FD-6D5F-8E1F-D71215535B5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABD5E639-0547-58BE-4C09-FA201F16EB88" name="VALOR_HORA_id_valor_hora_UN">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-09-16 01:24:45 UTC</createdTime>
+<generatorID>E37BB4DF-B910-0D46-774D-5496FE1887ED</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9317EE9-0F03-D355-26DD-A61F704ACC46"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

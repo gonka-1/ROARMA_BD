@@ -13,7 +13,6 @@
 <createdTime>2026-08-31 13:11:06 UTC</createdTime>
 <generatorID>F696FCC4-84BB-C622-66BA-D343F99A36B9</generatorID>
 <ownerDesignName>Roarma.V2</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -42,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -72,6 +71,17 @@
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
 <colUsage columnID="43FB68C5-81DD-7466-DD76-458393F697A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65D3E948-653E-3AC3-8B21-84A0DF11E0CD" name="CIUDAD_id_ciudad_UN">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-09-16 01:24:45 UTC</createdTime>
+<generatorID>618AD40B-C581-A2F1-0D2F-A8D1F1E80C28</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84A170FF-1126-AF3F-CCDC-7B417968F5A5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="7C1060D8-C548-8465-DDB0-4572ECCE31F1" name="CIUDAD_REGION_FK">

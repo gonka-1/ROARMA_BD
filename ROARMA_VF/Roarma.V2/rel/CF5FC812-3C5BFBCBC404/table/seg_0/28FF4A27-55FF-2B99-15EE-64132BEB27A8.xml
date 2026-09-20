@@ -149,11 +149,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>13</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="49A9DF2F-78F3-6AA1-5169-91A5B7381347" referredColumn="0E166331-BA47-7315-7F17-C2E467B27902"/>
+<colAssociation fkAssociation="B1C10C42-153C-7886-0A73-600D612D5599" referredColumn="0E166331-BA47-7315-7F17-C2E467B27902"/>
 </associations>
 </Column>
 </columns>
@@ -170,9 +170,9 @@
 <colUsage columnID="FE2FFAEC-7F4A-854F-EEBC-944B9043C4E9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="53343F0F-1FC4-6BB1-C392-D07332E8F736" name="DISPONIBILIDAD_PROFESOR_FK">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<ind_PK_UK id="AC2CC7A1-966C-8AF0-F617-A3B88EF6B1C7" name="DISPONIBILIDAD_PROFESOR_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-09-16 01:24:45 UTC</createdTime>
 <generatorID>4DD090F1-46BD-771E-10F6-E3F623C6F209</generatorID>
 <ownerDesignName>Roarma.V2</ownerDesignName>
 <indexState>Foreign Key</indexState>

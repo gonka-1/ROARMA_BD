@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E39BEF1-8D62-9A61-1B3D-FE86A26068D4" containerWithKeyObject="7FA56A97-33E9-7B1D-93B4-153088DD95D1" localFKIndex="89C8DD48-4B86-7954-63CF-DF9A14A14E7B" name="PERSONA_RESENA_FK">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-31 13:11:06 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="93719678-CBC6-957A-3C28-349755F361C9" containerWithKeyObject="7FA56A97-33E9-7B1D-93B4-153088DD95D1" localFKIndex="1DEE5C5D-BF67-3931-3C03-89ABE4218447" name="PERSONA_RESENA_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-09-16 01:24:45 UTC</createdTime>
 <generatorID>8A1D480E-269C-44E0-4132-9CA833325883</generatorID>
 <ownerDesignName>Roarma.V2</ownerDesignName>
 <referredTableLongName>RESENA</referredTableLongName>

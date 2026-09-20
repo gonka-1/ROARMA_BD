@@ -112,7 +112,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -128,12 +128,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="5F8F3AFA-A9DB-444D-AC19-C5308596BBDE" referredColumn="C96CB75C-4BE8-739D-B27A-9ADD01480422"/>
-</associations>
 </Column>
 <Column name="CLIENTE_id_cli" id="5B861B26-9803-EE0F-5AA8-54B7AABED7B2">
 <createdBy>SJ-Alumno</createdBy>
@@ -144,7 +141,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -160,7 +157,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>13</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -201,17 +198,6 @@
 <relationGeneratorID>FDCCD3EB-9510-7EA3-F2C5-455790713D3D</relationGeneratorID>
 <indexColumnUsage>
 <colUsage columnID="F6949CBE-D830-C9EE-6DCB-A258DD6F6BA2"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="BA8A32EF-9432-FF57-6CA8-9488FCC4C6A5" name="CONTRATO_PAGO_FK">
-<createdBy>SJ-Alumno</createdBy>
-<createdTime>2026-08-31 13:11:06 UTC</createdTime>
-<generatorID>613667EC-7BE4-3503-2F70-7001672599F5</generatorID>
-<ownerDesignName>Roarma.V2</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="812A48F1-D5E2-5729-8EA4-FA677A9C6C3C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="157E75B3-2613-CF81-A46E-9FDA04381B54" name="CONTRATO_PROFESOR_FK">

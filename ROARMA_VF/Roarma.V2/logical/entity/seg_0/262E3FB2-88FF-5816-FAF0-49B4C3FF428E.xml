@@ -23,7 +23,6 @@
 <engineerTo>
 <item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -128,7 +127,6 @@
 <engineerTo>
 <item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>E117102B-61DC-4503-AFE1-553006534BB1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -149,7 +147,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_cli" id="B6D1339F-4F40-F90A-E56D-002FF1C351D3">
 <createdBy>gdrc5</createdBy>
@@ -164,7 +162,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="143E9AC9-5CB2-04E4-1A6F-51C0FD7C55FE" name="USUARIO PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-09-16 01:20:43 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BDF79FE1-92A1-6F4F-5A81-505C61277488</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

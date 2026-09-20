@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -58,8 +58,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_ciudad" id="65E962FB-ABC2-3742-93AB-9554B0C6A95F">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-09-16 01:24:45 UTC</createdTime>
+<generatorID>1461DA30-4800-035C-5EAC-558962014ACA</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="DE55187C-0177-0638-7414-09F4937D12AE" referredColumn="43FB68C5-81DD-7466-DD76-458393F697A9"/>
+<colAssociation fkAssociation="DE55187C-0177-0638-7414-09F4937D12AE" referredColumn="84A170FF-1126-AF3F-CCDC-7B417968F5A5"/>
 </associations>
 </Column>
 </columns>
@@ -84,7 +97,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="603EAC10-25F2-910E-4024-1B9D9B1607E3"/>
+<colUsage columnID="65E962FB-ABC2-3742-93AB-9554B0C6A95F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="53BC5150-CE9F-2911-484C-EE3981043B77" name="COMUNA_DISPONIBILIDAD_FK">
