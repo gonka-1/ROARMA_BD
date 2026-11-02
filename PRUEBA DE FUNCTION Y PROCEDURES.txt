@@ -1,0 +1,79 @@
+PRUEBA DE FUNCTION Y PROCEDURES: 
+
+> FUNCIONES:
+
+SET SERVEROUTPUT ON;
+
+-- Prueba de Función 1: Validar Usuario
+DECLARE
+    v_estado VARCHAR2(20);
+BEGIN
+    v_estado := FN_VALIDAR_USUARIO('USR01');
+    DBMS_OUTPUT.PUT_LINE('Estado del Usuario: ' || v_estado);
+END;
+/
+
+-- Prueba de Función 2: Promedio de Reseña de un Profesor
+DECLARE
+    v_promedio NUMBER(3,2);
+BEGIN
+    v_promedio := FN_PROMEDIO_RESENA('PRO00001');
+    DBMS_OUTPUT.PUT_LINE('Promedio de Reseñas: ' || TO_CHAR(v_promedio, '0.00'));
+END;
+/
+
+-- Prueba de Función 3: Validar Título de un Profesor
+DECLARE
+    v_titulo VARCHAR2(20);
+BEGIN
+    v_titulo := FN_VALIDAR_TITULO('PRO00001');
+    DBMS_OUTPUT.PUT_LINE('Estado de Título: ' || v_titulo);
+END;
+/
+
+
+> PROCEDURES:
+
+SET SERVEROUTPUT ON;
+
+BEGIN
+    PR_REGISTRAR_CONTRATO(
+        P_ID_CONT => 'CT001',
+        P_FECHA   => SYSDATE,
+        P_ID_CLI  => 'CLI01',
+        P_RUN_PRO => 'PRO00001'
+    );
+    DBMS_OUTPUT.PUT_LINE('PR_REGISTRAR_CONTRATO: Ejecutado correctamente.');
+END;
+/
+
+-- Prueba de Procedimiento 2: Registrar Pago
+SET SERVEROUTPUT ON;
+
+BEGIN
+    PR_REGISTRAR_PAGO(
+        P_ID_PAGO => 'PG202',
+        P_MONTO   => 150000,
+        P_FECHA   => SYSDATE,
+        P_ID_CONT => 'CT001'
+    );
+    DBMS_OUTPUT.PUT_LINE('PR_REGISTRAR_PAGO: Ejecutado correctamente.');
+END;
+/
+
+-- Prueba de Procedimiento 3: Insertar en Resumen ROARMA
+BEGIN
+    P_INSERTAR_RESUMEN_ROARMA(
+        P_ID_RESUMEN      => 999999,
+        P_ID_CLI          => 'CLI100',
+        P_RUN_CLI         => '10.049.906-6',
+        P_NOMBRE_CLI      => 'JUAN PEREZ',
+        P_TIPO_CLI        => 'REGULAR',
+        P_TOTAL_PAGADO    => 150000,
+        P_RUN_PROF        => '10.055.879-9',
+        P_PROMEDIO_RESENA => 4.50,
+        P_TITULO_PROFESOR => 'CON TITULO'
+    );
+    DBMS_OUTPUT.PUT_LINE('Registro insertado en tabla resumen.');
+END;
+/
