@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E6A16AA-40EE-412C-4750-D8B3F015D7B1" name="DISPONIBILIDAD">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>5F6C725C-62BE-9813-D700-9946ED929FDE</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dis" id="94CAA73D-1994-CD8F-BE4A-94A8AF1E84E5">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>42539543-82AC-59CB-2E0F-8266F7DBBCCF</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_dis" id="14D81349-01D8-A04C-A2EC-10E05827F086">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>272A70D1-5173-6A24-CEF6-21DE08AB691B</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hor_ini" id="229C52DC-C24C-A2E8-8B37-8B082263534F">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>53073580-CB6C-1B5C-3F37-428E4B06EB34</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hor_ter" id="55ADD8A4-5320-7B5A-3999-7FB7EE849CF1">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>428CEEFE-F4DA-2014-161B-16C0ABF931C0</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="est_dis" id="62490F7B-DFFE-ADF4-F813-9A2DC7144D17">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[estado disponibilidad]]></commentInRDBMS>
+<generatorID>70709224-4003-105F-3125-28DFC1A2249D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modalidad" id="D8ECC8CB-B82C-E255-2674-7CAAE2F2E1BB">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>33EE01D3-522B-7D45-9262-8EAD57AE8D0F</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rad_cob_km" id="2E3B0684-C15B-9FAC-BF47-38B484AA8C85">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[radio cobertura kilometro]]></commentInRDBMS>
+<generatorID>308133A2-BC56-70E1-E83C-54BE9B516EAD</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESOR_id_pro" id="CDFFBAB8-E38F-A095-083C-0342CB6BD492">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>2870864D-99B5-70B2-12A0-0C6A2AC44EA7</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54A7C660-7318-8BE8-B48F-36C4AB62B2B7" referredColumn="2C5A241C-8FD5-7937-50ED-376E398AE937"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D4EBEDB-F701-F129-96B3-BA49153F90F6" name="DISPONIBILIDAD_PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>D76139FC-058E-132B-046F-61595882B85A</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94CAA73D-1994-CD8F-BE4A-94A8AF1E84E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="028AFEE3-09E5-DCBA-A24B-665297EDA7B5" name="DISPONIBILIDAD_PROFESOR_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>4DD090F1-46BD-771E-10F6-E3F623C6F209</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDFFBAB8-E38F-A095-083C-0342CB6BD492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

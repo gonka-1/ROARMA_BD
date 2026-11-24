@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F4A8F97A-F085-CA4B-B87C-D43F636AB25C" containerWithKeyObject="66B35CC0-DC90-FCC2-5DF0-696C7A6BC5BE" localFKIndex="0F7F9CE6-F8B3-5FC0-F544-36AA1B0D9A44" name="CLIENTE_PERSONA_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>89869697-FF9F-40C8-77A8-B2551CD211BD</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<referredTableLongName>PERSONA</referredTableLongName>
+<arc>65C73E27-4BA3-9895-139C-3CB61EEBB05F</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47A53CF3-2F0D-F217-22B3-0778EA04570B</referredTableID>
+<keyObject>88DEC128-3910-767A-89B1-9527FEA5BC85</keyObject>
+<referredKeyID>88DEC128-3910-767A-89B1-9527FEA5BC85</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_persona</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

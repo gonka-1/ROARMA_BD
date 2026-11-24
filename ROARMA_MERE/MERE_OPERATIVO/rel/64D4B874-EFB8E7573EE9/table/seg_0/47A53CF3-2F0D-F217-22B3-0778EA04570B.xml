@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47A53CF3-2F0D-F217-22B3-0778EA04570B" name="PERSONA">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>1A1CFCD7-86DA-44A7-4B5E-39D79D26C323</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_persona" id="FCBBD41D-0DCD-3AE8-8DEA-8E42F73C25A3">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>B321D32E-C85C-6F1A-248A-75958ECADF95</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMUNA_id_comuna" id="5536AC4B-4093-BEF5-C833-560655F006C8">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>EE05C679-D559-8CD4-B4A3-929BD0D9F0D1</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14BE84D8-323E-F1C2-9FA1-1CF3ABB486E6" referredColumn="D7FB4E6F-05B6-62AD-B6E8-68DBADB31502"/>
+</associations>
+</Column>
+<Column name="RESENA_rese_id" id="E0DF8F26-A21F-2607-6FD6-2A33EFC911C6">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>B1C42523-E69E-0185-B673-D3ECE9DC74D4</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15B1D958-EE3C-46EF-B5B3-2A7683162944" referredColumn="104EBD30-3D2C-81E8-A90C-F802B88EEBF0"/>
+</associations>
+</Column>
+<Column name="soli_id" id="334863DF-7254-B6D5-AED6-3E88DD37993F">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>810D90A4-6F7F-09C9-226B-68058B6F6A2C</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_msj" id="803E5282-2829-9B08-1636-0B6DCC62DC90">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>2B6ACE17-7C3E-8CE7-48FD-194B99680FF9</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88DEC128-3910-767A-89B1-9527FEA5BC85" name="PERSONA_PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>BF33FC7E-4CBD-D9E8-F7DD-8342022EF67B</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCBBD41D-0DCD-3AE8-8DEA-8E42F73C25A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A42772A3-F3BD-658D-7E30-0FA4DFB50917" name="PERSONA_RESENA_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>8A1D480E-269C-44E0-4132-9CA833325883</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0DF8F26-A21F-2607-6FD6-2A33EFC911C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79FF2B48-68DE-A621-B67C-2CA04CEF4F5F" name="PERSONA_COMUNA_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>81565B7F-8259-CF14-5B0F-4EFC855548C5</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5536AC4B-4093-BEF5-C833-560655F006C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD59EACC-4D04-8821-22FC-B6063CC08614" name="ESPECIALIDAD">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>3F6E5796-60AF-9BB2-4850-66990380A13B</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_esp" id="A1340157-668A-2D18-6DDB-DD7DF9CD1A0B">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[especialidad]]></commentInRDBMS>
+<generatorID>3C100D95-8AF0-D18D-E61A-5CB20B876374</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_esp" id="4B121BCA-15B4-486A-A92C-8D5D52BF0F1A">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>BBC06165-0925-B69A-BC0A-6E890B3972EE</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_exp_esp" id="0D41CECB-8CA3-EC6F-697A-1F5E3C4EBDEC">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>3F872A28-8B72-1613-B6DA-B32A576C9AAC</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9991DC0-4D36-FB06-D293-E21615DEF9AB" name="ESPECIALIDAD_PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>7BE34EAB-5CCD-313B-0CE9-EF513F308AD0</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1340157-668A-2D18-6DDB-DD7DF9CD1A0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

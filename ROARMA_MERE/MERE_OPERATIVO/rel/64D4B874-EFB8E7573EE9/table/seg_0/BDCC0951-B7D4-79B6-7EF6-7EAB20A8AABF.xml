@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDCC0951-B7D4-79B6-7EF6-7EAB20A8AABF" name="CONVERSACION">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>74E08BBC-E4A8-1E68-C4BF-8DEAD240C8CB</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_conv" id="74102E84-9F82-F8ED-A852-CF8FBAED25BB">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>3DBA636C-76C3-9499-7DED-39AF4D0831F0</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fech_ini" id="A5ADDC30-ED6C-518F-4E27-0BF049398027">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>C7E77FAF-2A17-7AA7-8164-A4955B691404</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENSAJE_id_msj" id="0DC5AC62-1306-7E47-B591-BD78AE6AC90C">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>B9AA337B-2075-9588-EADF-4C5741B76DAA</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BB1D12D-BD1E-1394-4C1C-69B25BA9ADD4" referredColumn="5F2BE388-0E99-19F4-72E2-07C3263DB223"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94E71A87-7E24-91E6-A2D6-B736AFF16104" name="CONVERSACION_PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>D4CA1E97-FBB0-3E05-2F93-2311E9C90C58</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74102E84-9F82-F8ED-A852-CF8FBAED25BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EB3E3AF-93A2-A938-5CC6-CD7D6572CD0E" name="CONVERSACION_MENSAJE_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>FA2CA57A-1D01-0BFC-3164-9E3C2EADD2F5</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DC5AC62-1306-7E47-B591-BD78AE6AC90C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

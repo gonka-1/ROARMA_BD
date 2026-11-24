@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3675C3AA-8F9D-D4C6-FC08-961D972EE485" name="INSCRIBIR">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROFESOR_id_persona" id="B55ABF45-AB74-E570-775C-EEE0A65AE99A">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD2EC403-71A6-B1FD-1730-3A4216E2D23F" referredColumn="20C345F7-B762-D80C-E247-5AD9C63E3BBE"/>
+</associations>
+</Column>
+<Column name="ESPECIALIDAD_id_esp" id="AE59E6E4-A582-28C8-143E-B0FF16323093">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8743E6F-986E-4977-317F-17F6E4DA076E" referredColumn="A1340157-668A-2D18-6DDB-DD7DF9CD1A0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAD1640F-0286-FCCD-498C-E0F8C5C3D55B" name="INSCRIBIR_PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B55ABF45-AB74-E570-775C-EEE0A65AE99A"/>
+<colUsage columnID="AE59E6E4-A582-28C8-143E-B0FF16323093"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95A442CF-8913-066B-AB92-6C7BADFA0032" name="INSCRIBIR_PROFESOR_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>CEF994A3-E8AD-1429-D3CB-0F58DA5F2DFD</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B55ABF45-AB74-E570-775C-EEE0A65AE99A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B5863F7-6B8F-3B1C-DDCF-6180D3B60E4B" name="INSCRIBIR_ESPECIALIDAD_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>CEF994A3-E8AD-1429-D3CB-0F58DA5F2DFD</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE59E6E4-A582-28C8-143E-B0FF16323093"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

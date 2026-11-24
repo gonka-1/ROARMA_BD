@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1138AFE3-1873-BB18-3D2C-3B2254DEE49A" containerWithKeyObject="29E5E735-734B-5945-0D88-AAB09E09AA34" localFKIndex="E70AB610-4D2C-0A3A-7010-43A739CC9965" name="CIUDAD_REGION_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>38830645-7A01-F477-3FEC-3A57F60C8744</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<referredTableLongName>REGION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3DCF029C-9578-8BBE-A704-6C2F038E5E50</referredTableID>
+<keyObject>9D343143-5DA4-3AAE-7F6E-45101C53AFF1</keyObject>
+<referredKeyID>9D343143-5DA4-3AAE-7F6E-45101C53AFF1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_region</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,239 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE0480A9-5D75-A666-D331-64A11F8E1EC8" name="CONTRATO">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>615826FC-43FC-8423-1296-8DA7A42F9E96</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cont" id="2E4335EF-E5BA-73EC-0B5B-BFD004782CB9">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>07D3C23D-6887-BE10-5E0F-393D9F8A2B81</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cli" id="305F1FCF-A6DB-8D5B-F5DB-61C0AB474B5E">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>B6666058-75BC-48A6-A6F0-1DB10F65CD5C</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="soli_id" id="00CEBDB2-F28A-110D-0DB2-070918671252">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>CCB0A6E0-72E4-BF83-E8AF-08EB976E7997</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_acor" id="7D6C7F11-1836-557D-87F1-EECA73839E2F">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>63D9F72C-F506-35D0-3898-8F3AE6BE584D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracion_cont" id="F531FB8E-E356-8871-59C1-2B05C6B160E4">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>C63A08C6-7E60-7037-8E95-53B94A1C0F9E</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_cont" id="2BEE690E-C3B4-9467-84C8-36FE6563602A">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>8EB937A3-ED3C-0094-7603-6CEE76AAE4A3</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_acue_cont" id="553467AE-FD0A-55B9-BA83-F5E77C659F26">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>2C28F177-CC97-1EB8-A3E8-FFF981F3E42D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOLICITUD_soli_id" id="196DCD5D-D5C8-2DAC-539D-2F6D116290B0">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>F5875283-7B9D-CF1E-3790-2D1D3D663183</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04A96ED5-C786-9EE2-4093-99544DB12338" referredColumn="65F05800-1312-271B-3D21-571D5AC3AA6C"/>
+</associations>
+</Column>
+<Column name="PAGO_id_pago" id="68CF1973-D25A-D14C-9A87-3B8447F5BDC4">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>B0731D94-207B-6678-A2A9-AB0301ADC81F</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61EEE777-DFB0-4FD4-D13E-A7CB7EA375F9" referredColumn="B664FCB3-1A96-6D6B-68A5-E28CABF9860F"/>
+</associations>
+</Column>
+<Column name="CLIENTE_id_cli" id="0AF12891-3F7D-CA27-C437-D7EA93861A9A">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>FF804C5C-1F4C-D011-3F85-0DB52B0DEA2E</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0D13557-42E8-46A6-F58D-5153077ECCD6" referredColumn="C3E9EC39-9AD7-44C4-D92E-D99DB6683EED"/>
+</associations>
+</Column>
+<Column name="PROFESOR_id_pro" id="B23F3AB8-1DDF-8E5C-CE5A-4C23E258FFCC">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>803A62DC-527A-209A-2D32-EFF425CE1FD6</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F9CF1B1-75A0-0613-8824-CB195BAAC30E" referredColumn="2C5A241C-8FD5-7937-50ED-376E398AE937"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD99CD49-B5CD-D180-63E3-5C908A4CC735" name="CONTRATO_PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>0B05FA79-9415-3642-140B-B0B6FF459A38</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E4335EF-E5BA-73EC-0B5B-BFD004782CB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75A30736-D401-0AB8-2125-0A8C9F7353A2" name="CONTRATO__IDX">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>613667EC-7BE4-3503-2F70-7001672599F5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="68CF1973-D25A-D14C-9A87-3B8447F5BDC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="592FE9D7-6C3B-AE03-2323-5621CB81BCC3" name="CONTRATO__IDXv1">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FDCCD3EB-9510-7EA3-F2C5-455790713D3D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="196DCD5D-D5C8-2DAC-539D-2F6D116290B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A496EE5-9451-FFD9-8138-B5CD5F1DF86B" name="CONTRATO_PAGO_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>613667EC-7BE4-3503-2F70-7001672599F5</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68CF1973-D25A-D14C-9A87-3B8447F5BDC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E18F8B08-16F3-20C7-37FF-FCF3220F4886" name="CONTRATO_PROFESOR_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>9696E994-9398-62D9-32E7-FB578B813D38</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B23F3AB8-1DDF-8E5C-CE5A-4C23E258FFCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74FF0AFF-EB11-41AE-18E7-3C590C0E47C2" name="CONTRATO_SOLICITUD_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>FDCCD3EB-9510-7EA3-F2C5-455790713D3D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="196DCD5D-D5C8-2DAC-539D-2F6D116290B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="552BDA59-F9A9-5408-E55A-1F9A3A18F8E3" name="CONTRATO_CLIENTE_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>319ACB65-ECE3-D09E-C215-2C8FFE99120D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AF12891-3F7D-CA27-C437-D7EA93861A9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

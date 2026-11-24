@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD3B8AC1-712B-6046-AF2B-0FC829FD1D52" name="VERIFICACION_CUENTA">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>E612A6B2-6A0C-A9E4-93C9-165A5412C70D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_seg" id="9DDE6837-CD52-146B-2BD4-9FCEBAD0693D">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>E6DD93DB-E054-85D2-0DE9-80D708B199E5</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESOR_id_pro" id="CA95BB92-D431-2B4A-B691-83882914E138">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>63BE87BF-4714-55CB-771E-E109E36038E5</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A87E2FDB-3C53-FFCA-BCB7-B2846044BC72" referredColumn="2C5A241C-8FD5-7937-50ED-376E398AE937"/>
+</associations>
+</Column>
+<Column name="fecha_validacion" id="59102327-2257-8544-2FF7-29362CF24C0A">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>545A4303-0A6B-B59A-6643-BAFDDF45263A</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>A87E2FDB-3C53-FFCA-BCB7-B2846044BC72</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="vigencia_validacion" id="4B59B9E3-9E4E-3076-88E7-9A8EC149F8E8">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<comment><![CDATA[validado en meses]]></comment>
+<generatorID>53B6718B-62F4-24BA-AA6F-062D3A8246B3</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>A87E2FDB-3C53-FFCA-BCB7-B2846044BC72</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7A4132A-0EF4-143F-8EC7-53551A981ED6" name="VERIFICACION_CUENTA_PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>CDE20A1D-CF1E-33ED-A710-F5EFF2033BC6</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DDE6837-CD52-146B-2BD4-9FCEBAD0693D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55A18199-0592-2896-24B4-70463A387875" name="VERIFICACION_CUENTA_PROFESOR_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>00306903-E5E8-201C-32CF-7126561C1C26</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA95BB92-D431-2B4A-B691-83882914E138"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

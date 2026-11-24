@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="820DF564-F17B-C5BE-AD95-527454F36D57" name="COMUNA">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>DFB60861-649C-6FD9-48FC-5D2962735BC7</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comuna" id="D7FB4E6F-05B6-62AD-B6E8-68DBADB31502">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>E8D1A3A1-F6C1-9182-3A8A-6806E7353E72</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_comuna" id="FC2332E4-0CD5-49FB-021E-748E339E18AB">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>96DCF37A-E6F9-FD17-B412-00EE8E72E2D3</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISPONIBILIDAD_id_dis" id="936B99F5-557D-EF18-C4FA-3E8ED8F0E792">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>C4012CF8-F030-A6EC-B324-119BBAC5D216</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="096767F5-F198-3A7E-71ED-8FA12240F1D8" referredColumn="94CAA73D-1994-CD8F-BE4A-94A8AF1E84E5"/>
+</associations>
+</Column>
+<Column name="CIUDAD_id_ciudad" id="8E769597-04C7-40E6-AE9E-F7975360F066">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>1461DA30-4800-035C-5EAC-558962014ACA</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6EED194-38BC-6676-8D98-2529128D033F" referredColumn="E49C427A-2140-13B2-DEE0-DDEB6C199A9B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F54D7966-3A2F-211C-E379-FAFBEE44C936" name="COMUNA_PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>F0C3F5B2-07B2-C219-3420-50FE62ECD0AE</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7FB4E6F-05B6-62AD-B6E8-68DBADB31502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DE84047-C5A6-C14E-45FC-6B611D95CAE4" name="COMUNA_CIUDAD_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>68ECF0BE-963A-8119-0D5B-9D318ACA8CC0</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E769597-04C7-40E6-AE9E-F7975360F066"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9B2727C-A2A2-A97D-E006-BCDF97748302" name="COMUNA_DISPONIBILIDAD_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>08BE4F74-8A99-FA19-9B1D-F0DA69D0936F</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="936B99F5-557D-EF18-C4FA-3E8ED8F0E792"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

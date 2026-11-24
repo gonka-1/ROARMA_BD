@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F8743E6F-986E-4977-317F-17F6E4DA076E" containerWithKeyObject="3675C3AA-8F9D-D4C6-FC08-961D972EE485" localFKIndex="6B5863F7-6B8F-3B1C-DDCF-6180D3B60E4B" name="INSCRIBIR_ESPECIALIDAD_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>CEF994A3-E8AD-1429-D3CB-0F58DA5F2DFD</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<referredTableLongName>ESPECIALIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BD59EACC-4D04-8821-22FC-B6063CC08614</referredTableID>
+<keyObject>E9991DC0-4D36-FB06-D293-E21615DEF9AB</keyObject>
+<referredKeyID>E9991DC0-4D36-FB06-D293-E21615DEF9AB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_esp</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

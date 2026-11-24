@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="65C73E27-4BA3-9895-139C-3CB61EEBB05F" name="FKArc_1">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>47A53CF3-2F0D-F217-22B3-0778EA04570B</table>
+<fkeys>
+<fkeyID>28D0F63B-8F94-6850-F21B-8F307DA074F6</fkeyID>
+<fkeyID>F4A8F97A-F085-CA4B-B87C-D43F636AB25C</fkeyID>
+<fkeyID>DA9C959F-8DCB-4DAE-D07D-CC26931A4853</fkeyID>
+</fkeys>
+</FKArc>

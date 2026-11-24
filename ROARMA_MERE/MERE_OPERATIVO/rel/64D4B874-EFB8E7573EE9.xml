@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="64D4B874-82A4-856E-4032-EFB8E7573EE9" mainViewID="4AB7BF6F-1FAB-B442-289C-B46493D1313D">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:46:42 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

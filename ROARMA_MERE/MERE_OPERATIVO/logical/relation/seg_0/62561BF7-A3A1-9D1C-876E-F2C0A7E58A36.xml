@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PAGAR" directorySegmentName="seg_0" id="62561BF7-A3A1-9D1C-876E-F2C0A7E58A36">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:27:04 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<sourcePk>4B0BD337-B765-FFA3-B13D-3FC11123892C</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>paga</nameOnSource>
+<nameOnTarget>es pagado</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>39B7D8A6-C48C-400A-1C7E-7A83D1028849</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A17991F8-B70C-0C48-8CFF-2F2EB7DE123C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

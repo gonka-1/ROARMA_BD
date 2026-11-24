@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12AEF5A7-B1FC-52E1-E04D-EF7266BCB37C" name="PROFESOR">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>A19E9253-17E9-16F3-916A-177F41313227</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_persona" id="20C345F7-B762-D80C-E247-5AD9C63E3BBE">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>B321D32E-C85C-6F1A-248A-75958ECADF95</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA9C959F-8DCB-4DAE-D07D-CC26931A4853" referredColumn="FCBBD41D-0DCD-3AE8-8DEA-8E42F73C25A3"/>
+</associations>
+</Column>
+<Column name="id_pro" id="2C5A241C-8FD5-7937-50ED-376E398AE937">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>42129225-0CD2-434E-B27D-4A64956731E0</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cal_pro_pro" id="6993CC30-34C3-883D-5296-9ADF9DAFF1F4">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[calificacion promedio profesor]]></commentInRDBMS>
+<generatorID>2BE3FD26-D68C-D59B-636F-7D6B1454D342</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3C38570-93FE-C2E2-760F-B69D1C96DC1F" name="PROFESOR_PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>BF33FC7E-4CBD-D9E8-F7DD-8342022EF67B</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20C345F7-B762-D80C-E247-5AD9C63E3BBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3389B45-2283-E4AD-525A-E006CCEA6114" name="PROFESOR_PKv1">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>4B2B42B2-6C20-2CBF-C747-E7EF94134AA8</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C5A241C-8FD5-7937-50ED-376E398AE937"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94D0089F-D2DE-0CB9-848A-8913338DE0E3" name="PROFESOR_PERSONA_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>A53E3470-C1A7-FE1F-2624-A9625FEABDE2</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20C345F7-B762-D80C-E247-5AD9C63E3BBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

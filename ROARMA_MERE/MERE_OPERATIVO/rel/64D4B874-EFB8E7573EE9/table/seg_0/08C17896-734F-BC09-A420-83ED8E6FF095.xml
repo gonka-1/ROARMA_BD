@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08C17896-734F-BC09-A420-83ED8E6FF095" name="Detallar">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROFESOR_id_persona" id="C54C8697-5881-FDA5-0617-4328C78AD503">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B90D6272-2CE7-5F44-E4C1-32FA909F3EE9" referredColumn="20C345F7-B762-D80C-E247-5AD9C63E3BBE"/>
+</associations>
+</Column>
+<Column name="VALOR_HORA_id_valor_hora" id="F6A9CB2F-74E2-2858-26E6-AA93DA1D2355">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E89DE668-0AAD-B0D1-86B4-AC23CDDCC31F" referredColumn="50CADCBE-A02E-4774-BFEC-DF7E51BEB79E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D514C0D-2C15-CFB6-4600-B19785A215BC" name="Detallar_PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C54C8697-5881-FDA5-0617-4328C78AD503"/>
+<colUsage columnID="F6A9CB2F-74E2-2858-26E6-AA93DA1D2355"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D8AB9B2-CE38-4537-077F-B519A9709559" name="Detallar_PROFESOR_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>E10918F4-7536-7D48-745E-9F572037293D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C54C8697-5881-FDA5-0617-4328C78AD503"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE399A77-F227-CDB8-CE8E-6565C4D62FE8" name="Detallar_VALOR_HORA_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>E10918F4-7536-7D48-745E-9F572037293D</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6A9CB2F-74E2-2858-26E6-AA93DA1D2355"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

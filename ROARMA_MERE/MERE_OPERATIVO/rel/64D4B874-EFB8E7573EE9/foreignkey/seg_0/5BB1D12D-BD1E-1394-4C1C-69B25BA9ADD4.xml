@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5BB1D12D-BD1E-1394-4C1C-69B25BA9ADD4" containerWithKeyObject="BDCC0951-B7D4-79B6-7EF6-7EAB20A8AABF" localFKIndex="0EB3E3AF-93A2-A938-5CC6-CD7D6572CD0E" name="CONVERSACION_MENSAJE_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>FA2CA57A-1D01-0BFC-3164-9E3C2EADD2F5</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<referredTableLongName>MENSAJE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>59462CFD-6F5B-A135-4229-C63714B99731</referredTableID>
+<keyObject>88FACF8E-67AE-2410-E16A-F206D768EAC7</keyObject>
+<referredKeyID>88FACF8E-67AE-2410-E16A-F206D768EAC7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_msj</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

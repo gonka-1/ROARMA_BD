@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04938869-EECF-899C-3CCC-C2DC08635C9D" name="USUARIO">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>262E3FB2-88FF-5816-FAF0-49B4C3FF428E</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_persona" id="9D967889-DC56-460D-4063-CD4DED007928">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>B321D32E-C85C-6F1A-248A-75958ECADF95</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28D0F63B-8F94-6850-F21B-8F307DA074F6" referredColumn="FCBBD41D-0DCD-3AE8-8DEA-8E42F73C25A3"/>
+</associations>
+</Column>
+<Column name="id_usu" id="9939FEB4-9E60-9098-78F7-3E51DCEA26FF">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>BDF79FE1-92A1-6F4F-5A81-505C61277488</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rese_id" id="0959EB2D-1226-CBF8-347B-291B90878A46">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>5042FDB2-D4F2-4EE7-2274-F4A514CBF324</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOLICITUD_soli_id" id="5E8241FF-7CBD-5CE9-0E6F-EE3FB276CCA2">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>7B0B358D-C561-02B7-D43D-DDF643BE0B65</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="787EF09B-D43B-8F7E-7110-BE7534D8D466" referredColumn="65F05800-1312-271B-3D21-571D5AC3AA6C"/>
+</associations>
+</Column>
+<Column name="CLIENTE_id_cli" id="3D2C7F7F-93FA-E177-A2BE-3A46AFA858AF">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>B6D1339F-4F40-F90A-E56D-002FF1C351D3</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E0D289F-527E-0AD2-A5B2-F17FE1C647AF" referredColumn="C3E9EC39-9AD7-44C4-D92E-D99DB6683EED"/>
+</associations>
+</Column>
+<Column name="acepta_terminos" id="C677DAF0-57A6-B614-E2D5-9067071B2BDE">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>8E22ACCB-BDE7-E01C-AC22-3453391B581A</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_consentimiento" id="243E17CD-202D-665C-8E02-B7E3D09B1D1D">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>0ED3DDF2-DE43-7F7B-5BE1-0F452DC0D758</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="387237A6-4098-DA9C-D243-96269B3B1EC3" name="USUARIO_PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>BF33FC7E-4CBD-D9E8-F7DD-8342022EF67B</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D967889-DC56-460D-4063-CD4DED007928"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD9333DE-AD53-C51E-F878-D6ED21992321" name="USUARIO_PKv1">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>143E9AC9-5CB2-04E4-1A6F-51C0FD7C55FE</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9939FEB4-9E60-9098-78F7-3E51DCEA26FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89C9A146-9A52-F5DC-496D-19336D7773E9" name="USUARIO_PERSONA_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>26BCD8B7-625D-979E-CE10-419B67FA0395</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D967889-DC56-460D-4063-CD4DED007928"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A4E6C7B-413E-B6EB-4B2A-4527EC53AA62" name="USUARIO_SOLICITUD_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>E3D624AF-B9AF-4A6E-80FD-0507124ACF40</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E8241FF-7CBD-5CE9-0E6F-EE3FB276CCA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA8FDF8E-3855-BE54-F8B8-65B71AE15C0F" name="USUARIO_CLIENTE_FK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:47:00 UTC</createdTime>
+<generatorID>5E38AAF4-F073-0EFE-B6C5-2A91CE28F2DF</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D2C7F7F-93FA-E177-A2BE-3A46AFA858AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

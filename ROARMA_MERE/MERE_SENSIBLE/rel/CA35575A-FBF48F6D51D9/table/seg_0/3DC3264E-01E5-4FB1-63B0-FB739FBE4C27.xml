@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DC3264E-01E5-4FB1-63B0-FB739FBE4C27" name="TITULO">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>2FDC9F80-B368-DBD0-B4FC-03502598AFA2</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_titulo" id="90660498-9ABF-3A47-15A5-4C86D8AEEAF8">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[casa estudio]]></commentInRDBMS>
+<generatorID>CBF6ED88-D2EC-9E53-7136-3F5A0129EB99</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="men_titulo" id="EF7B4D20-7A9E-0FFB-8071-A642D00F235E">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[mencion titulo]]></commentInRDBMS>
+<generatorID>C74F00F6-888D-0FAF-B0E8-ADE470727DF8</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cas_est" id="E89AF499-773F-0451-260E-6AB4EF01F1DD">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[casa estudio]]></commentInRDBMS>
+<generatorID>621CECB7-4585-F13A-9896-C6BC7A6E29DA</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_titu" id="CBA2BD03-BA5D-A1A2-4D9B-61F4558F7438">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>4491FEC3-8945-FC5D-BD71-D75E02B45960</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cert_titu" id="722D6023-12C6-7DCC-40F8-A839541280A9">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>5E8274AD-0C8E-30E5-BE42-B53554446806</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESOR_id_profesor" id="B1FBEEF6-E518-DCD8-06D6-EBBC9A559C51">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>C91283C6-C2B7-B7FA-83A0-BC9714931D0B</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C037B92-0D21-B73E-BB7E-25F43197F15D" referredColumn="8FD17A0F-9E70-D525-F8E0-6CEC9697BC48"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0540F232-43EC-A735-5619-38C2AFB90D8B" name="TITULO_PK">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>7D4AA81A-A1EE-DEF0-C5C9-8B925E320CDE</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90660498-9ABF-3A47-15A5-4C86D8AEEAF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FB32C5C-C1AE-499D-9CB6-9F4A777ADFB2" name="TITULO_PROFESOR_FK">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>6E232E06-BC43-80CF-B4B5-C594FC452B6A</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1FBEEF6-E518-DCD8-06D6-EBBC9A559C51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

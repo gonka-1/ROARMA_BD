@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="262E3FB2-88FF-5816-FAF0-49B4C3FF428E" name="USUARIO">
+<createdBy>SJ-Alumno</createdBy>
+<createdTime>2026-08-27 16:35:03 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>1A1CFCD7-86DA-44A7-4B5E-39D79D26C323</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usu" id="BDF79FE1-92A1-6F4F-5A81-505C61277488">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-08-29 02:13:21 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rese_id" id="5042FDB2-D4F2-4EE7-2274-F4A514CBF324">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-08-29 02:27:56 UTC</createdTime>
+<generatorID>8A1D480E-269C-44E0-4132-9CA833325883</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<referedAttribute>E117102B-61DC-4503-AFE1-553006534BB1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="soli_id" id="7B0B358D-C561-02B7-D43D-DDF643BE0B65">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-08-29 02:28:10 UTC</createdTime>
+<generatorID>E3D624AF-B9AF-4A6E-80FD-0507124ACF40</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<referedAttribute>31E8CA7A-8DCE-F1CB-E8C2-EF0818C8E1E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cli" id="B6D1339F-4F40-F90A-E56D-002FF1C351D3">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-08-29 02:34:56 UTC</createdTime>
+<generatorID>5E38AAF4-F073-0EFE-B6C5-2A91CE28F2DF</generatorID>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<referedAttribute>02C72E7D-9156-ABB3-621A-4333F945FA55</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="acepta_terminos" id="8E22ACCB-BDE7-E01C-AC22-3453391B581A">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:16:11 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fec_consentimiento" id="0ED3DDF2-DE43-7F7B-5BE1-0F452DC0D758">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-11-24 18:16:48 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="143E9AC9-5CB2-04E4-1A6F-51C0FD7C55FE" name="USUARIO PK">
+<createdBy>gdrc5</createdBy>
+<createdTime>2026-09-16 01:20:43 UTC</createdTime>
+<ownerDesignName>Roarma.V2</ownerDesignName>
+<engineerTo>
+<item key="CF5FC812-08E1-DAB4-B07B-3C5BFBCBC404" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BDF79FE1-92A1-6F4F-5A81-505C61277488</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
