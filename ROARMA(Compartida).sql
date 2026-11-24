@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------
--- FUNCIONES
+-- FUNCIONES ADAPTADAS A ARQUITECTURA LEY 21.719 (ROARMA)
 ---------------------------------------------------------------------------------
 
 -- FUNCION 1: Promedio de calificaciones de un profesor
@@ -12,7 +12,7 @@ BEGIN
     INTO VFN_PROMEDIO
     FROM RESENA RE
     JOIN CONTRATO CON ON (RE.ID_CONT = CON.ID_CONT)
-    WHERE CON.PROFESOR_RUN_PRO = VFN_ID_PROF;
+    WHERE CON.PROFESOR_ID_PRO = VFN_ID_PROF;
     
     RETURN VFN_PROMEDIO;
 EXCEPTION
@@ -30,7 +30,7 @@ BEGIN
     SELECT COUNT(*)
     INTO VFN_COUNT
     FROM TITULO
-    WHERE PROFESOR_RUN_PRO = VFN_ID_PROF;
+    WHERE PROFESOR_ID_PRO = VFN_ID_PROF;
     
     IF VFN_COUNT > 0 THEN
         RETURN 'CON TITULO';
@@ -43,7 +43,7 @@ EXCEPTION
 END FN_VALIDAR_TITULO;
 /
 
--- FUNCION 3: Validar si existe un usuario registrado en el sistema
+-- FUNCION 3: Validar si existe un usuario registrado y con consentimiento activo
 CREATE OR REPLACE FUNCTION FN_VALIDAR_USUARIO_EXISTE (
     VFN_ID_USU IN VARCHAR2
 ) RETURN VARCHAR2 IS
@@ -52,7 +52,8 @@ BEGIN
     SELECT COUNT(*)
     INTO VFN_COUNT
     FROM USUARIO
-    WHERE id_usu = VFN_ID_USU;
+    WHERE id_usu = VFN_ID_USU
+      AND acepta_terminos = 1;
 
     IF VFN_COUNT > 0 THEN
         RETURN 'ACTIVO';
@@ -66,39 +67,45 @@ END FN_VALIDAR_USUARIO_EXISTE;
 /
 
 ---------------------------------------------------------------------------------
--- PROCEDIMIENTOS
+-- PROCEDIMIENTOS ADAPTADOS A ARQUITECTURA LEY 21.719 (ROARMA)
 ---------------------------------------------------------------------------------
 
--- PROCEDIMIENTO 1: Registrar o actualizar contrato
+-- PROCEDIMIENTO 1: Registrar o actualizar contrato (BD Común)
 CREATE OR REPLACE PROCEDURE PR_REGISTRAR_CONTRATO(
     P_ID_CONT      IN VARCHAR2,
     P_FECHA        IN DATE,
     P_ID_CLI       IN VARCHAR2,
-    P_RUN_PRO      IN VARCHAR2,
+    P_ID_PRO       IN VARCHAR2,
     P_MONTO_ACOR   IN VARCHAR2 DEFAULT '0',
     P_DURACION     IN VARCHAR2 DEFAULT '1 MES',
     P_ESTADO       IN VARCHAR2 DEFAULT 'ACTIVO',
-    P_SOLICITUD_ID IN VARCHAR2 DEFAULT 'SOL01'
+    P_SOLICITUD_ID IN VARCHAR2 DEFAULT 'S0001'
 ) IS 
 BEGIN 
     INSERT INTO CONTRATO(
-        ID_CONT, 
-        FEC_ACUE_CONT, 
-        CLIENTE_ID_CLI, 
-        PROFESOR_RUN_PRO,
+        ID_CONT,
+        ID_CLI,
+        SOLI_ID,
         MONTO_ACOR,
         DURACION_CONT,
         ESTADO_CONT,
-        SOLICITUD_SOLI_ID
+        FEC_ACUE_CONT,
+        SOLICITUD_SOLI_ID,
+        PAGO_ID_PAGO,
+        CLIENTE_ID_CLI,
+        PROFESOR_ID_PRO
     ) VALUES (
-        P_ID_CONT, 
-        P_FECHA, 
-        P_ID_CLI, 
-        P_RUN_PRO,
+        P_ID_CONT,
+        P_ID_CLI,
+        P_SOLICITUD_ID,
         P_MONTO_ACOR,
         P_DURACION,
         P_ESTADO,
-        P_SOLICITUD_ID
+        P_FECHA,
+        P_SOLICITUD_ID,
+        NULL,
+        P_ID_CLI,
+        P_ID_PRO
     );
     
     COMMIT;
@@ -106,11 +113,13 @@ EXCEPTION
     WHEN DUP_VAL_ON_INDEX THEN
         UPDATE CONTRATO
         SET FEC_ACUE_CONT     = P_FECHA,
+            ID_CLI            = P_ID_CLI,
             CLIENTE_ID_CLI    = P_ID_CLI,
-            PROFESOR_RUN_PRO  = P_RUN_PRO,
+            PROFESOR_ID_PRO   = P_ID_PRO,
             MONTO_ACOR        = P_MONTO_ACOR,
             DURACION_CONT     = P_DURACION,
             ESTADO_CONT       = P_ESTADO,
+            SOLI_ID           = P_SOLICITUD_ID,
             SOLICITUD_SOLI_ID = P_SOLICITUD_ID
         WHERE ID_CONT = P_ID_CONT;
         COMMIT;
@@ -120,38 +129,55 @@ EXCEPTION
 END PR_REGISTRAR_CONTRATO;
 /
 
--- PROCEDIMIENTO 2: Registrar pago de un contrato
+-- PROCEDIMIENTO 2: Registrar pago de un contrato (BD Común + BD Sensible)
 CREATE OR REPLACE PROCEDURE PR_REGISTRAR_PAGO(
     P_ID_PAGO     IN VARCHAR2,
     P_MONTO       IN NUMBER,
     P_FECHA       IN DATE,
     P_ID_CONT     IN VARCHAR2,
-    P_METODO_PAGO IN VARCHAR2 DEFAULT 'EFECTIVO',
+    P_METODO_PAGO IN VARCHAR2 DEFAULT 'TRANSFERENCIA',
     P_ESTADO_PAGO IN VARCHAR2 DEFAULT 'PAGADO',
-    P_ID_CLI      IN VARCHAR2 DEFAULT 'CLI01'
+    P_ID_CLI      IN VARCHAR2 DEFAULT 'C0001'
 ) IS
 BEGIN
     IF P_MONTO <= 0 THEN 
         RAISE_APPLICATION_ERROR(-20002, 'El monto del pago debe ser mayor a cero.');
     END IF;
     
+    -- 1. Registro operativo anonimizado en PAGO (BD Común)
     INSERT INTO PAGO(
         ID_PAGO, 
-        MONTO_PAGO, 
-        FEC_PAGO, 
-        METODO_PAGO,
-        ESTADO_PAGO,
         CONTRATO_ID_CONT,
         CLIENTE_ID_CLI
     ) VALUES (
         P_ID_PAGO, 
-        TO_CHAR(P_MONTO), 
-        P_FECHA, 
-        P_METODO_PAGO,
-        P_ESTADO_PAGO,
         P_ID_CONT,
         P_ID_CLI
     );
+
+    -- 2. Registro financiero detallado en PAGO_SENSIBLE (BD Sensible)
+    INSERT INTO PAGO_SENSIBLE(
+        ID_PAGO,
+        ID_CONT,
+        MONTO_PAGO,
+        FEC_PAGO,
+        METODO_PAGO,
+        ESTADO_PAGO,
+        CLIENTE_ID_CLIENTE
+    ) VALUES (
+        P_ID_PAGO,
+        P_ID_CONT,
+        TO_CHAR(P_MONTO),
+        P_FECHA,
+        P_METODO_PAGO,
+        P_ESTADO_PAGO,
+        P_ID_CLI
+    );
+
+    -- 3. Vincular el pago al contrato en BD Común
+    UPDATE CONTRATO
+       SET PAGO_ID_PAGO = P_ID_PAGO
+     WHERE ID_CONT = P_ID_CONT;
     
     COMMIT;
 EXCEPTION
@@ -169,7 +195,7 @@ CREATE OR REPLACE PROCEDURE P_INSERTAR_RESUMEN_ROARMA(
     P_NOMBRE_CLI        IN VARCHAR2,
     P_TIPO_CLI          IN VARCHAR2,
     P_TOTAL_PAGADO      IN NUMBER,
-    P_RUN_PROF          IN VARCHAR2,
+    P_ID_PROF           IN VARCHAR2,
     P_PROMEDIO_RESENA   IN NUMBER,
     P_TITULO_PROFESOR   IN VARCHAR2
 ) IS 
@@ -192,7 +218,7 @@ BEGIN
         P_NOMBRE_CLI,        
         P_TIPO_CLI,          
         P_TOTAL_PAGADO,      
-        P_RUN_PROF,          
+        P_ID_PROF,          
         P_PROMEDIO_RESENA,   
         P_TITULO_PROFESOR,
         SYSDATE
@@ -202,8 +228,9 @@ EXCEPTION
         RAISE_APPLICATION_ERROR(-20003, 'Error al insertar en resumen: ' || SQLERRM);
 END P_INSERTAR_RESUMEN_ROARMA;
 /
+
 ---------------------------------------------------------------------------------
--- BLOQUE ANÓNIMO PRINCIPAL
+-- BLOQUE ANÓNIMO PRINCIPAL ADAPTADO (LEY 21.719)
 ---------------------------------------------------------------------------------
 ALTER SESSION DISABLE PARALLEL QUERY;
 
@@ -224,15 +251,18 @@ DECLARE
     
     OBJ_REC_RESUMEN REC_RESUMEN;
     
+    -- Cursor híbrido: cruza la BD Común (CLIENTE, CONTRATO) con la BD Sensible (PERSONA_SENSIBLE, CLIENTE_SENSIBLE)
     CURSOR C_GESTION IS
         SELECT 
-            CLI.RUN_PER AS RUN_CLIENTE,
-            PER.PNOMBRE_PER ||' '|| PER.PAPELLIDO_PER AS NOMBRE_CLIENTE,
+            PER_S.RUN_PER AS RUN_CLIENTE,
+            PER_S.PNOMBRE_PER || ' ' || PER_S.PAPELLIDO_PER AS NOMBRE_CLIENTE,
             CLI.ID_CLI AS ID_CLIENTE,
+            NVL(CLI_S.TIP_CLI, 'PERSONA NATURAL') AS TIPO_CLIENTE,
             CON.ID_CONT AS ID_CONTRATO,
-            CON.PROFESOR_RUN_PRO AS ID_PROF
+            CON.PROFESOR_ID_PRO AS ID_PROF
         FROM CLIENTE CLI 
-        JOIN PERSONA PER ON (CLI.RUN_PER = PER.RUN_PER)
+        JOIN PERSONA_SENSIBLE PER_S ON (CLI.ID_PERSONA = PER_S.ID_PERSONA)
+        LEFT JOIN CLIENTE_SENSIBLE CLI_S ON (CLI.ID_PERSONA = CLI_S.ID_PERSONA)
         JOIN CONTRATO CON ON (CLI.ID_CLI = CON.CLIENTE_ID_CLI); 
             
     V_ID_RESUMEN       NUMBER := 0;
@@ -246,7 +276,7 @@ BEGIN
     EXECUTE IMMEDIATE 'TRUNCATE TABLE RESUMEN_GESTION_ROARMA';
 
     DBMS_OUTPUT.PUT_LINE('----------------------------------------------------------------');
-    DBMS_OUTPUT.PUT_LINE(' ROARMA SCHEMA - RESUMEN DE GESTION CONSOLIDADO');
+    DBMS_OUTPUT.PUT_LINE(' ROARMA SCHEMA - RESUMEN DE GESTION CONSOLIDADO (LEY 21.719)');
     DBMS_OUTPUT.PUT_LINE(' FECHA DE PROCESO: ' || TO_CHAR(SYSDATE, 'DD/MM/YYYY HH24:MI:SS'));
     DBMS_OUTPUT.PUT_LINE('----------------------------------------------------------------');
     
@@ -257,7 +287,7 @@ BEGIN
             OBJ_REC_RESUMEN.VR_ID_CLI     := NVL(i.ID_CLIENTE, 'N/A');
             OBJ_REC_RESUMEN.VR_RUN_CLI    := i.RUN_CLIENTE;
             OBJ_REC_RESUMEN.VR_NOMBRE_CLI := i.NOMBRE_CLIENTE;
-            OBJ_REC_RESUMEN.VR_TIPO_CLI   := 'REGULAR';
+            OBJ_REC_RESUMEN.VR_TIPO_CLI   := SUBSTR(i.TIPO_CLIENTE, 1, 20);
             OBJ_REC_RESUMEN.VR_ID_PROF    := NVL(i.ID_PROF, 'N/A');
         
             IF i.ID_PROF IS NOT NULL AND i.ID_PROF <> 'N/A' THEN
@@ -268,10 +298,12 @@ BEGIN
                 OBJ_REC_RESUMEN.VR_TITULO_PROFESOR := 'SIN PROFESOR';
             END IF;
 
+            -- Consulta los montos pagados desde PAGO_SENSIBLE vinculados al contrato
             SELECT NVL(SUM(TO_NUMBER(REGEXP_REPLACE(MONTO_PAGO, '[^0-9]', ''))), 0)
             INTO OBJ_REC_RESUMEN.VR_TOTAL_PAGADO
-            FROM PAGO
-            WHERE CONTRATO_ID_CONT = i.ID_CONTRATO;
+            FROM PAGO_SENSIBLE
+            WHERE ID_CONT = i.ID_CONTRATO
+              AND UPPER(ESTADO_PAGO) = 'PAGADO';
 
             -- Inserción de la fila consolidada en la tabla resumen
             P_INSERTAR_RESUMEN_ROARMA(
@@ -281,7 +313,7 @@ BEGIN
                 P_NOMBRE_CLI      => OBJ_REC_RESUMEN.VR_NOMBRE_CLI,
                 P_TIPO_CLI        => OBJ_REC_RESUMEN.VR_TIPO_CLI,
                 P_TOTAL_PAGADO    => OBJ_REC_RESUMEN.VR_TOTAL_PAGADO,
-                P_RUN_PROF        => OBJ_REC_RESUMEN.VR_ID_PROF,
+                P_ID_PROF         => OBJ_REC_RESUMEN.VR_ID_PROF,
                 P_PROMEDIO_RESENA => OBJ_REC_RESUMEN.VR_PROMEDIO_RESENA,
                 P_TITULO_PROFESOR => OBJ_REC_RESUMEN.VR_TITULO_PROFESOR
             );
@@ -298,6 +330,7 @@ BEGIN
             DBMS_OUTPUT.PUT_LINE('ID CLIENTE                : ' || OBJ_REC_RESUMEN.VR_ID_CLI);
             DBMS_OUTPUT.PUT_LINE('RUN CLIENTE               : ' || OBJ_REC_RESUMEN.VR_RUN_CLI);
             DBMS_OUTPUT.PUT_LINE('NOMBRE CLIENTE            : ' || OBJ_REC_RESUMEN.VR_NOMBRE_CLI);
+            DBMS_OUTPUT.PUT_LINE('TIPO CLIENTE              : ' || OBJ_REC_RESUMEN.VR_TIPO_CLI);
             DBMS_OUTPUT.PUT_LINE('ID PROFESOR               : ' || OBJ_REC_RESUMEN.VR_ID_PROF);
             DBMS_OUTPUT.PUT_LINE('ESTADO TITULO PROFESOR    : ' || OBJ_REC_RESUMEN.VR_TITULO_PROFESOR);
             DBMS_OUTPUT.PUT_LINE('PROMEDIO RESENAS          : ' || TO_CHAR(OBJ_REC_RESUMEN.VR_PROMEDIO_RESENA, '0.00'));
@@ -329,6 +362,3 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('PROCESO FINALIZADO CON ÉXITO.');
 END;
 /
-
-
-

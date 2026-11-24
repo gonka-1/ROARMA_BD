@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DDE9582-D695-EFA3-9CCD-C1F4BBD927F8" name="PAGO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DDE9582-D695-EFA3-9CCD-C1F4BBD927F8" name="PAGO_SENSIBLE">
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:25:58 UTC</createdTime>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <engineerTo>
 <item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="id_pago" id="0991D291-5909-36F0-CE10-DD7DB44EE226">
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:26:04 UTC</createdTime>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <engineerTo>
 <item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
 </engineerTo>
@@ -31,7 +31,7 @@
 <Attribute name="id_cont" id="8F92AB6F-087A-AE11-7A57-80EFC9AE9BFA">
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:30:08 UTC</createdTime>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <engineerTo>
 <item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
 </engineerTo>
@@ -44,7 +44,7 @@
 <Attribute name="monto_pago" id="22616C44-E3EC-1024-EA51-26D953166C9A">
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:30:23 UTC</createdTime>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <engineerTo>
 <item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
 </engineerTo>
@@ -57,7 +57,7 @@
 <Attribute name="fec_pago" id="695F7E10-9F71-8344-A948-D8A2915D17B5">
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:31:05 UTC</createdTime>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <engineerTo>
 <item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
 </engineerTo>
@@ -69,7 +69,7 @@
 <Attribute name="metodo_pago" id="6E064232-7ABA-282B-BFE7-268396D96EB5">
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:31:22 UTC</createdTime>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <engineerTo>
 <item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
 </engineerTo>
@@ -82,7 +82,7 @@
 <Attribute name="estado_pago" id="8790F85D-A4F5-F984-1A01-1839A15405D8">
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:31:39 UTC</createdTime>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <engineerTo>
 <item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
 </engineerTo>
@@ -96,7 +96,7 @@
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:33:38 UTC</createdTime>
 <generatorID>858AF1F9-9A57-20F6-6DFE-D6CBD41C5BBD</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <engineerTo>
 <item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
 </engineerTo>
@@ -105,16 +105,17 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="08293407-4AAE-F694-699C-C659CCF71260" name="PAGO PK">
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:26:18 UTC</createdTime>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

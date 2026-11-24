@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CB8A9FE-D36C-CA20-2BFC-B00CA460A9E7" name="USUARIO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CB8A9FE-D36C-CA20-2BFC-B00CA460A9E7" name="USUARIO_SENSIBLE">
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:39:40 UTC</createdTime>
 <generatorID>4A7BA3E3-1EC8-C74B-5CBA-817B51A6CEA2</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -12,7 +12,7 @@
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:39:40 UTC</createdTime>
 <generatorID>A07EA294-3B18-0BC7-AAF4-33DAD210C897</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -27,7 +27,7 @@
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:39:40 UTC</createdTime>
 <generatorID>B780A982-1F32-07E5-02F0-FE2C5C57DE0D</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -39,7 +39,7 @@
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:39:40 UTC</createdTime>
 <generatorID>74B79764-27AE-2CF5-9066-5D84F00A5283</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -51,7 +51,7 @@
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:39:40 UTC</createdTime>
 <generatorID>B974F49A-B115-5A9C-50DE-36870C7AD7AA</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -62,7 +62,7 @@
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:39:40 UTC</createdTime>
 <generatorID>EB3F0986-44B3-A3D3-DE11-40BC2E605D96</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -74,7 +74,7 @@
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:39:40 UTC</createdTime>
 <generatorID>3411F891-6476-56AE-A77A-D14A8463FD75</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT010</logicalDatatype>
@@ -85,7 +85,7 @@
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:39:40 UTC</createdTime>
 <generatorID>EB793A86-64C4-992B-7664-C397FD23756B</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -97,7 +97,7 @@
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:39:40 UTC</createdTime>
 <generatorID>61463BC7-8F6C-679E-C65E-5DBF6E257C51</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -109,7 +109,7 @@
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:39:40 UTC</createdTime>
 <generatorID>21007510-5B49-A2D0-F2E9-74AFB60BC9C1</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -123,7 +123,7 @@
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:39:40 UTC</createdTime>
 <generatorID>6240B6BD-D3D0-4A64-8778-46AD43F5A123</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -135,7 +135,7 @@
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:39:40 UTC</createdTime>
 <generatorID>8CDA3DB4-D658-8627-F472-D17F9D6AA85F</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -146,7 +146,7 @@
 <createdBy>matiastomas</createdBy>
 <createdTime>2026-11-24 18:39:40 UTC</createdTime>
 <generatorID>5349CFF3-5299-31F6-BDD4-C51E0291F4F3</generatorID>
-<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<ownerDesignName>MERE_SENSIBLE</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
