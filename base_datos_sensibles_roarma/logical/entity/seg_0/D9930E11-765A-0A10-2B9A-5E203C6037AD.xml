@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9930E11-765A-0A10-2B9A-5E203C6037AD" name="PROFESOR">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:05:54 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>3BE4399F-0F01-8DB4-7EF1-8A5C569734CF</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_profesor" id="0E476AE7-2E4F-184C-81D9-050FBDF10422">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:06:10 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitud_act" id="D91BB0C8-46BC-4620-2C3B-B6B3EA95CF13">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:06:22 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitud_act" id="97A129F4-657C-1D90-E206-EF6BF950F52F">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:06:33 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ult_act_ubi" id="C2681408-83B4-9FAD-7505-F6037958E2B0">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:06:48 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vc" id="E2DC1278-215A-15B0-0214-4106F939BDC9">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:20:09 UTC</createdTime>
+<generatorID>4150AA4F-B6ED-7769-E928-ABAFC5A5D660</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>887A960B-08D1-B43A-9AF9-63ACEB93B706</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0675598-77F4-1AD3-074B-67BD5E7F4BAB" name="PROFESOR PK">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:06:19 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E476AE7-2E4F-184C-81D9-050FBDF10422</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

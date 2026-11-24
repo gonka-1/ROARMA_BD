@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39E03047-10B5-572B-62FA-3DFD454F1CFD" name="PERSONA">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>3BE4399F-0F01-8DB4-7EF1-8A5C569734CF</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_persona" id="00ADD9EE-C797-C9B9-D35D-0D95AB0DC95E">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>A07EA294-3B18-0BC7-AAF4-33DAD210C897</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="run_per" id="87493E2A-D09C-CB5E-B898-F377AF712BE9">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>CA07213E-AC07-77E0-A502-C35DF18FDD6C</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pnombre_per" id="3671F3CA-EFDE-04D4-AB66-F5004E56A53D">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>3930FA04-C6A9-8596-BD04-77F1C17846E6</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="snombre_per" id="2785B36C-35CE-68E5-332D-1C060278F7CB">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>306886B1-BAC6-AAB3-5013-A7071D027C19</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="papellido_per" id="FAC33335-3322-E03B-9E2D-5B67DB150BFB">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>C63992F0-1388-1E92-B3EF-C74DBBFB0545</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sapellido_per" id="1EDEC49A-C9EB-9802-756D-3C7307C6165D">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>D1B8332F-B63A-D6FE-2B8D-298F56CF4026</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nac_per" id="6517D478-B105-3E63-C617-648FF95225FB">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>C319A0D1-E9FE-408C-8EFF-D0E3E324114B</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_per" id="A6FC6869-E0AF-7D19-368D-7E123AC11D3B">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>FD782615-99B6-BB7E-76C9-3727EAAB43DC</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tel_persona" id="45022D13-08E9-72DF-1500-5D037AA77A48">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>5B084377-4012-52FA-967B-A70210ABB10D</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ant_per" id="D2B8A1CF-D4EE-8D27-3CF2-5F29A7825DF6">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[antecedentes persona]]></commentInRDBMS>
+<generatorID>8B78B567-76DA-2167-8B6B-93D666F91530</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E167486-A3D1-3329-B0DB-146B037BF0C5" name="PERSONA_PK">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>6240B6BD-D3D0-4A64-8778-46AD43F5A123</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00ADD9EE-C797-C9B9-D35D-0D95AB0DC95E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EFC81641-B6DA-3B83-4B33-F9D3E8D164F5" name="CLIENTE">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 17:58:35 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>3BE4399F-0F01-8DB4-7EF1-8A5C569734CF</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="CFCF2579-F61D-0E5B-A81A-5635888C6477">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 17:59:33 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_cli" id="577CDC3F-2412-6E8F-CC5A-718B7B7E797E">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 17:59:47 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razon_soc_cli" id="A7C85690-C871-DBB3-B574-F312A0ADF687">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:02:05 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CED0F31C-17BA-1BF3-02D0-D74B45B24133" name="CLIENTE PK">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 17:59:42 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CFCF2579-F61D-0E5B-A81A-5635888C6477</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

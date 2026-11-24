@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="base_datos_sensibles_roarma" id="7E8DE970-6145-5EE5-C6D0-0F1FF43FD906" version="3.5">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 17:23:35 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7E8DE970-6145-5EE5-C6D0-0F1FF43FD906</designId>
+</OSDM_Design>

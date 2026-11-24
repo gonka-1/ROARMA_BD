@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DDE9582-D695-EFA3-9CCD-C1F4BBD927F8" name="PAGO">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:25:58 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pago" id="0991D291-5909-36F0-CE10-DD7DB44EE226">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:26:04 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cont" id="8F92AB6F-087A-AE11-7A57-80EFC9AE9BFA">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:30:08 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_pago" id="22616C44-E3EC-1024-EA51-26D953166C9A">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:30:23 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fec_pago" id="695F7E10-9F71-8344-A948-D8A2915D17B5">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:31:05 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="metodo_pago" id="6E064232-7ABA-282B-BFE7-268396D96EB5">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:31:22 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_pago" id="8790F85D-A4F5-F984-1A01-1839A15405D8">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:31:39 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="9AFC90C5-26B7-CBA0-1CC6-72E9F1D5E52B">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:33:38 UTC</createdTime>
+<generatorID>858AF1F9-9A57-20F6-6DFE-D6CBD41C5BBD</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<referedAttribute>CFCF2579-F61D-0E5B-A81A-5635888C6477</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="08293407-4AAE-F694-699C-C659CCF71260" name="PAGO PK">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:26:18 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0991D291-5909-36F0-CE10-DD7DB44EE226</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

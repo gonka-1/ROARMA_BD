@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pagar" directorySegmentName="seg_0" id="858AF1F9-9A57-20F6-6DFE-D6CBD41C5BBD">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:32:44 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<sourcePk>CED0F31C-17BA-1BF3-02D0-D74B45B24133</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Paga</nameOnSource>
+<nameOnTarget>Es pagado</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EFC81641-B6DA-3B83-4B33-F9D3E8D164F5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9DDE9582-D695-EFA3-9CCD-C1F4BBD927F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

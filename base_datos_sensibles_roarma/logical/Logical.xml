@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DF3955D9-E35C-6142-E91F-7B2B84738CEC" mainViewID="60563C3E-1482-C3CA-BDB6-6DD314778B53">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 17:23:35 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

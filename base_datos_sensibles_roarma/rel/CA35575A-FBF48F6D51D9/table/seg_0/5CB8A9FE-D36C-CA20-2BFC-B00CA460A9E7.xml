@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CB8A9FE-D36C-CA20-2BFC-B00CA460A9E7" name="USUARIO">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>4A7BA3E3-1EC8-C74B-5CBA-817B51A6CEA2</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_persona" id="1E5581F6-4215-816C-FD1A-6DD4AA059386">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>A07EA294-3B18-0BC7-AAF4-33DAD210C897</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66AD4E28-5C5A-54FB-6629-2AAE4B279061" referredColumn="00ADD9EE-C797-C9B9-D35D-0D95AB0DC95E"/>
+</associations>
+</Column>
+<Column name="id_usuario" id="926BC7D2-75E2-5E01-0541-1C03BE60CCAC">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>B780A982-1F32-07E5-02F0-FE2C5C57DE0D</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pass_usu" id="EF7C43CA-EFD6-5949-E281-BF5494D5EE88">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>74B79764-27AE-2CF5-9066-5D84F00A5283</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_reg" id="0551028E-3C08-EC6F-4269-F0455FB1DE3B">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>B974F49A-B115-5A9C-50DE-36870C7AD7AA</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_usu" id="0FF88873-2164-CA3E-8559-7134AD3EA435">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>EB3F0986-44B3-A3D3-DE11-40BC2E605D96</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="img_usu" id="FAB93B32-6F0E-EAE3-301D-4B1224D5A54E">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>3411F891-6476-56AE-A77A-D14A8463FD75</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitud_act" id="A50E5B10-F209-9F96-BA6F-29E0CAE503A4">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>EB793A86-64C4-992B-7664-C397FD23756B</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitud_act" id="1D082F85-4AE7-50B6-8CA6-8AD21A60849E">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>61463BC7-8F6C-679E-C65E-5DBF6E257C51</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ult_act_ubi" id="2871B0E2-EABD-2A73-32A8-133C4C66E566">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>21007510-5B49-A2D0-F2E9-74AFB60BC9C1</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE9D1712-0CB5-B1E2-E56B-785F20CA99DB" name="USUARIO_PK">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>6240B6BD-D3D0-4A64-8778-46AD43F5A123</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E5581F6-4215-816C-FD1A-6DD4AA059386"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10C9DEC9-09FA-C395-DE5D-F1E6FA698A8E" name="USUARIO_PKv1">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>8CDA3DB4-D658-8627-F472-D17F9D6AA85F</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="926BC7D2-75E2-5E01-0541-1C03BE60CCAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FFB7707-67BA-44E3-3358-94E6C81AA9BF" name="USUARIO_PERSONA_FK">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>5349CFF3-5299-31F6-BDD4-C51E0291F4F3</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E5581F6-4215-816C-FD1A-6DD4AA059386"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

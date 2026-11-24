@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED93E622-EA72-DC80-CC67-094098350F4D" name="VERIFICACION_CUENTA">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:13:23 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_vc" id="887A960B-08D1-B43A-9AF9-63ACEB93B706">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:14:07 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="certifi_inha_seg" id="96E5483D-10FE-B04C-6C29-967DF8AD465C">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:14:37 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="est_verificacion" id="09C98C84-263B-370A-AC8D-2AC735855485">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:16:05 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fec_est_verificacion" id="67F9206F-6E47-4469-8D16-6B5F2F8B9E8E">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:16:24 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profesor" id="C8CA8F0C-ACAC-EFC3-93AB-B511D1D43C5F">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:38:34 UTC</createdTime>
+<generatorID>4150AA4F-B6ED-7769-E928-ABAFC5A5D660</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0E476AE7-2E4F-184C-81D9-050FBDF10422</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17D84F56-8488-EF60-A51C-4858C172A3B0" name="VERIFICACION_CUENTA PK">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:14:35 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>887A960B-08D1-B43A-9AF9-63ACEB93B706</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

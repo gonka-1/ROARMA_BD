@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="3AF7531F-D14A-6C92-AE89-FC136F786E4D">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 17:23:35 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

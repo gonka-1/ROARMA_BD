@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85B77FB4-E451-2EFD-8B6D-978DD3C3C20F" name="CLIENTE">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>EFC81641-B6DA-3B83-4B33-F9D3E8D164F5</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_persona" id="DB44FC23-7208-97D2-1AA1-0FFE0CF2E0A5">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>A07EA294-3B18-0BC7-AAF4-33DAD210C897</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67821800-F898-DB81-2883-7BC3E8E135B0" referredColumn="00ADD9EE-C797-C9B9-D35D-0D95AB0DC95E"/>
+</associations>
+</Column>
+<Column name="id_cliente" id="83E86578-B241-BB70-D84B-3E2DF385B66C">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>CFCF2579-F61D-0E5B-A81A-5635888C6477</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_cli" id="D25F5A67-A673-FA53-3B84-30DC87A13E85">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>577CDC3F-2412-6E8F-CC5A-718B7B7E797E</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razon_soc_cli" id="5B0AA1BB-CC3F-A9E0-41D1-B5CF463687C6">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>A7C85690-C871-DBB3-B574-F312A0ADF687</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4A9391A-E974-2525-F1B1-98227E171AE4" name="CLIENTE_PK">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>6240B6BD-D3D0-4A64-8778-46AD43F5A123</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB44FC23-7208-97D2-1AA1-0FFE0CF2E0A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29A1D277-0DB1-18A8-CD2F-B982A5E29244" name="CLIENTE_PKv1">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>CED0F31C-17BA-1BF3-02D0-D74B45B24133</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83E86578-B241-BB70-D84B-3E2DF385B66C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA3C9ED8-2259-370C-EB90-94C903D51CB2" name="CLIENTE_PERSONA_FK">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>E0F7C37E-FE51-EC4C-EC50-4CF5EBE6998E</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB44FC23-7208-97D2-1AA1-0FFE0CF2E0A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

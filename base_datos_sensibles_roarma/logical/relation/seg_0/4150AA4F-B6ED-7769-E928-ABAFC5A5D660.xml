@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Acreditar" directorySegmentName="seg_0" id="4150AA4F-B6ED-7769-E928-ABAFC5A5D660">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:20:09 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<sourcePk>D0675598-77F4-1AD3-074B-67BD5E7F4BAB</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Acreditada</nameOnSource>
+<nameOnTarget>Es acreditada</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9930E11-765A-0A10-2B9A-5E203C6037AD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ED93E622-EA72-DC80-CC67-094098350F4D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fecha_validacion" id="4ED73589-35A4-61A4-68F1-F3C39124585A">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:20:13 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="vigencia_validacion" id="71CF7EC6-89C6-B11A-71D7-FC340CA73D41">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:20:27 UTC</createdTime>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<engineerTo>
+<item key="CA35575A-09C7-3A72-9F05-FBF48F6D51D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

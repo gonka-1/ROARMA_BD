@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EFEEBA4-0B84-73BE-BC88-00DD3D9D94FF" name="PAGO">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>9DDE9582-D695-EFA3-9CCD-C1F4BBD927F8</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pago" id="7BE5FCA5-1245-3C7F-8393-91CF5422AC94">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>0991D291-5909-36F0-CE10-DD7DB44EE226</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cont" id="E4221AE5-654C-43F7-2A2D-CDAF3212BA0B">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>8F92AB6F-087A-AE11-7A57-80EFC9AE9BFA</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_pago" id="DC732A3A-FDC2-CD71-45D9-D285C160B8E6">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>22616C44-E3EC-1024-EA51-26D953166C9A</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_pago" id="7A9D2E25-FFC8-9D0E-1DFB-36F400B58BE7">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>695F7E10-9F71-8344-A948-D8A2915D17B5</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="metodo_pago" id="6E592D9E-7766-B894-A480-B7C0712572DD">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>6E064232-7ABA-282B-BFE7-268396D96EB5</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_pago" id="0390E2CD-D552-C83E-42DC-791808730794">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>8790F85D-A4F5-F984-1A01-1839A15405D8</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_id_cliente" id="118C5EFF-0F20-995D-08CC-EF4B4985D499">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>9AFC90C5-26B7-CBA0-1CC6-72E9F1D5E52B</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E06380D3-BCD3-50DC-1E9F-6D04DA8AB2A6" referredColumn="83E86578-B241-BB70-D84B-3E2DF385B66C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8F1F950-DD8C-D606-BBBF-CBEF6C88C6A1" name="PAGO_PK">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>08293407-4AAE-F694-699C-C659CCF71260</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BE5FCA5-1245-3C7F-8393-91CF5422AC94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AA2951F-53D9-9BBE-FFB2-BE2C2C9D01FA" name="PAGO_CLIENTE_FK">
+<createdBy>matiastomas</createdBy>
+<createdTime>2026-11-24 18:39:40 UTC</createdTime>
+<generatorID>858AF1F9-9A57-20F6-6DFE-D6CBD41C5BBD</generatorID>
+<ownerDesignName>base_datos_sensibles_roarma</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="118C5EFF-0F20-995D-08CC-EF4B4985D499"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
